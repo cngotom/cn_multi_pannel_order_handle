@@ -7,7 +7,7 @@
 		private static $client;
 		private static $url;
 		private static $param;
-		const KEY =  "XcdFt5934LkoPDTRhGQ9";
+		const KEY =  "";
 
 
 		static public function init()
@@ -18,8 +18,8 @@
 			self::$param =  array();
 
 			//设置系统级参数
-			self::$param['checkCode'] = "-488439-98121-86-11857117-7537946-10816-70";
-			self::$param['merchantId'] = "46503";
+			self::$param['checkCode'] = "";
+			self::$param['merchantId'] = "";
 			self::$param['erp'] = "self";
 			self::$param['erpVer'] = "1.0";
 			self::$param['format'] = "json";
