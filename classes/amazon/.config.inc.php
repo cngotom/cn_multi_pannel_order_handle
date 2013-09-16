@@ -6,8 +6,8 @@
     * Access Key ID and Secret Acess Key ID, obtained from:
     * http://aws.amazon.com
     ***********************************************************************/
-    define('AWS_ACCESS_KEY_ID', 'AKIAJKO5PHMKVV2N5YVA');
-    define('AWS_SECRET_ACCESS_KEY', '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');  
+    define('AWS_ACCESS_KEY_ID', '');
+    define('AWS_SECRET_ACCESS_KEY', '');  
 
    /************************************************************************
     * REQUIRED
@@ -24,8 +24,8 @@
     * All MWS requests must contain the seller's merchant ID and
     * marketplace ID.
     ***********************************************************************/
-    define ('MERCHANT_ID', 'A1187UKY4PVTVK');
-    define ('MARKETPLACE_ID', 'AAHKV2X7AFYLW');
+    define ('MERCHANT_ID', '');
+    define ('MARKETPLACE_ID', '');
 
 
    /************************************************************************ 
