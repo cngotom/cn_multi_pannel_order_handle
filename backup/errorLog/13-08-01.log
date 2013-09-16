@@ -1,0 +1,37 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:E:\Projects\php\zunpingou\runtime\gift\card_list.php
+errLine:53
+errTime:13-08-01 19:57:35
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\card_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>

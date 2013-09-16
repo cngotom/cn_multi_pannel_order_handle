@@ -1,0 +1,37 @@
+<div class="headbar">
+	<div class="position"><span>系统</span><span>></span><span>配送管理</span><span>></span><span>快递跟踪</span></div>
+</div>
+<div class="content_box">
+	<div class="content form_content">
+		<form action='{url:/system/express_update}' method='post' name="express_form">
+			<table class="form_table">
+				<col width="150px" />
+				<col />
+				<tr>
+					<th>API_ID：</th>
+					<td><input type="text" name="express_key" class="normal" value="" pattern="required" alt="请输入您申请的API_ID"/></td>
+				</tr>
+				<tr>
+					<th>开启：</th><td>
+						<label><input type="radio" name="express_open" value="0" checked="checked"/>关闭</label>
+						<label><input type="radio" name="express_open" value="1"/>开启</label></td>
+				</tr>
+				<tr>
+					<th></th>
+					<td>查询数据由：<a href="http://www.kuaidi100.com/openapi/" target="_blank" class='blue'>KuaiDi100.Com （快递100）</a> 网站提供，请到快递100前去申请ID!</td>
+				</tr>
+				<tr>
+					<td></td><td><button class="submit" type="submit"><span>保 存</span></button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+
+<script type='text/javascript'>
+var formImage = new Form('express_form');
+formImage.init({
+	'express_key':"{$express_key}",
+	'express_open':"{$express_open}"
+});
+</script>

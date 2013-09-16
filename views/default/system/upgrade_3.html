@@ -1,0 +1,42 @@
+{set:$version=$this->version;}
+<div class="content">
+	<div class="upgrade_box">
+		<div class="gray_title"><img src="{skin:images/admin/right_g.gif}" /><span id="nav_title">正在安装，请稍候</span></div>
+		<div class="cont">
+			<ul class="step" id="step_upgrade">	
+				<li class="f14">正在下载升级文件...</li>
+				
+			</ul>
+			<label class="org_shadow_btn"><a href="{url:/system/default/}">回到后台首页</a></label>
+		</div>
+	</div>
+</div>
+<script language="javascript">
+function download()
+{
+	var url = '{url:/system/upgrade_4/version/$version}';
+	$.get(url,function(data){
+		if(data=='success')
+		{
+			$("#step_upgrade").append($('<li class="f14">文件更新完成。</li>'));
+			upgrade();
+		}
+	});
+}
+function upgrade()
+{
+	$("#step_upgrade").append($('<li class="f14">正在进行数据整理...</li>'));
+	var url = '{url:/system/upgrade_5}';
+	$.get(url,function(data){
+		if(data == 'success')
+		{
+			$("#step_upgrade").append($('<li class="f14">升级完成。</li>'));
+			$("#nav_title").html("恭喜！您的iwebshop已经成功升级到最新版本！");
+		}
+	});
+}
+
+$(document).ready(function(){
+	download();
+});
+</script>

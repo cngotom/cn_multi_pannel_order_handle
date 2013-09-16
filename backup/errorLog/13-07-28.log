@@ -1,0 +1,154 @@
+<ERROR_INFO>
+Mess: SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE u.username = "" and m.status = 1 and u.id = m.user_id limit 1
+ -- No database selected
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:134  	File:IWEB_PATH/web\model\model_class.php
+	Func:getObj         	Class:IModel         	Type:->   	Line:105  	File:D:\projects\php\zunpingou\classes\checkrights.php
+	Func:isValidUser    	Class:CheckRights    	Type:::   	Line:79   	File:D:\projects\php\zunpingou\classes\checkrights.php
+	Func:checkUserRights	Class:CheckRights    	Type:->   	Line:23   	File:D:\projects\php\zunpingou\controllers\site.php
+	Func:init           	Class:Site           	Type:->   	Line:194  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Host 'XYL-PC' is not allowed to connect to this MySQL server
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:46:50
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:16
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:19
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:19
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:19
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:19
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:19
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'XYL-PC' (using password: YES)
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-07-28 22:51:19
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.88:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>

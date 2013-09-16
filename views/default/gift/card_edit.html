@@ -1,0 +1,82 @@
+{js:my97date}
+{js:artTemplate}
+
+<div class="headbar clearfix">
+	<div class="position"><span>商品</span><span>></span><span>礼册管理</span><span>></span><span>{if:isset($id)}礼册修改{else:}礼册添加{/if}</span></div>
+</div>
+
+<div class="content_box">
+	<div class="content form_content">
+		<form action="{url:/gift/card_update}" name="volumesForm" method="post">
+			<input type="hidden" name="id" value="{$card_id}" />
+			<div id="table_box_1">
+				<table class="form_table">
+					<col width="150px" />
+					<col />
+					<tr>
+						<th>礼卡账号：</th>
+						<td>
+							<input class="normal" name="no" type="text" value="" pattern="required" alt="账号不能为空" /><label>*</label>
+						</td>
+					</tr>
+                                                                        <tr>
+						<th>礼卡密码：</th>
+						<td>
+							<input class="normal" name="password" type="password"  value=""   {if:!isset($card_id)} pattern="required" {/if}  alt="密码不能为空" /><label>*</label>
+						</td>
+					</tr>
+                                                                      
+                                                                        <tr>
+						<th>礼册名称：</th>
+						<td>  	
+                                                                                            <select class="auto" name="volume_id" pattern="required" alt="礼册名称不能为空">
+								{query:name=volumes}
+                                                                                                                        <option value="{$item['id']}">{$item['title']}</option>
+								{/query}
+                                                                                            </select>
+						</td>
+					</tr>
+                                                                         <tr>
+						<th>有效期：</th>
+						<td>
+							<input class="normal" name="expire" type="text" value="{if:!isset($card_id)}12{/if}" pattern="int" alt="有效期格式不正确" /><label>( 月 )</label>
+						</td>
+					</tr>
+					
+                                             
+				</table>
+                                                          <table class="form_table">
+                                                                    <col width="150px" />
+                                                                    <col />
+                                                                    <tr>
+                                                                            <td></td>
+                                                                            <td><button class="submit" type="submit" onclick="return checkForm()"><span>确认</span></button></td>
+                                                                    </tr>
+                                                        </table>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script language="javascript">
+//创建表单实例
+var formObj = new Form('volumesForm');
+$(function()
+{
+	//商品分类回填
+	{if:isset($card_id)}
+                    var card = {echo:JSON::encode($card)};
+                    formObj.setValue('no',card.no);
+                    formObj.setValue('volume_id',card.volume_id);
+                    formObj.setValue('expire',card.expire);     
+	{/if}
+});
+
+//提交表单前的检查
+function checkForm()
+{
+
+	return true;
+}
+
+</script>

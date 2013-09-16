@@ -1,0 +1,43 @@
+{set:$version = $this->version;}
+<div class="content">
+	<div class="upgrade_box">
+	
+		<div class="gray_title">
+			{if:$this->changed}
+			<img src="{skin:images/admin/error.gif}" />检测到现有版本的文件已经被修改过，继续升级可能会存在风险，请慎重选择
+			{else:}
+			<img src="{skin:images/admin/right.gif}" />升级文件没有改动过，可以安全升级
+			{/if}
+		</div>
+		
+		<div class="cont">
+			<h3>文件检测<span class="f12 gray"> ( <img src="{skin:images/admin/wrong.gif}" /> 为修改过的文件&nbsp;&nbsp;&nbsp;<img src="{skin:images/admin/right.gif}" /> 为原始文件)</span></h3>
+			<ul style="height:170px;overflow-y:scroll;">
+				{foreach:items=$this->file_list}
+					{if:$item['changed']}
+				<li><img src="{skin:images/admin/wrong_b.gif}" />  {$item['path']}</li>
+					{else:}
+				<li><img src="{skin:images/admin/right_b.gif}" />   {$item['path']}</li>
+					{/if}
+				{/foreach}
+			</ul>
+			
+			<h3>文件权限检测<span class="f12 gray"> ( <img src="{skin:images/admin/wrong.gif}" /> 为需要调整为可写的&nbsp;&nbsp;&nbsp;<img src="{skin:images/admin/right.gif}" /> 为正确的 )</span></h3>
+			
+			<ul style="height:170px;overflow-y:scroll;">
+				{foreach:items=$this->chmod_file_list}
+					{if:$item['flag']==false}
+				<li><img src="{skin:images/admin/wrong_b.gif}" />  {$item['path']}</li>
+					{else:}
+				<li><img src="{skin:images/admin/right_b.gif}" />   {$item['path']}</li>
+					{/if}
+				{/foreach}
+			</ul>
+			
+			<label class="org_shadow_btn"><a href="{url:/system/upgrade_1}">返回</a></label>
+			{if:$this->chmod_flag}
+			<label class="org_shadow_btn"><a href="{url:/system/upgrade_3/version/$version}">继续升级</a></label>
+			{/if}
+		</div>
+	</div>
+</div>

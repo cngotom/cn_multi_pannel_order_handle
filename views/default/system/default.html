@@ -1,0 +1,102 @@
+<div class="content_box" style="border:none">
+	<div class="content">
+		{set:$installfile = 'install';}
+		{if:file_exists($installfile)}
+		<div class="red_box"><img src="{skin:images/admin/error.gif}" />您的安装目录没有删除，为了商店安全，请尽快删除！</div>
+		{/if}
+		<table width="48%" cellspacing="0" cellpadding="5" class="border_table_org" style="float:left">
+			<thead>
+				<tr><th>概况</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<table class="list_table2" width="100%">
+							<colgroup>
+								<col width="100px" />
+								<col />
+								<col width="80px" />
+							</colgroup>
+							<tbody>
+								<tr><th>销售总额</th><td colspan="2">{query:name=order fields=sum(order_amount) as amount where=`status` eq 5}<b class="f14 red3">{if:empty($item['amount'])}0{else:}{$item['amount']}{/if}</b> 元{/query}</td></tr>
+								<tr><th>今年销售总额</th><td colspan="2">{query:name=order fields=sum(order_amount) as amount where=`status` eq 5 and YEAR(create_time) eq YEAR(now())}<b class="f14 red3">{if:empty($item['amount'])}0{else:}{$item['amount']}{/if}</b> 元{/query}</td></tr>
+								<tr><th>客户</th><td colspan="2">{query:name=user fields=count(id) as coun }<b class="f14 red3">{$item['coun']}</b>个{/query}</td></tr>
+								<tr><th>产品</th><td colspan="2">{query:name=goods fields=count(id) as coun where=is_del eq 0}<b class="f14 red3">{$item['coun']}</b>个{/query}</td></tr>
+								<tr><th>咨询</th><td>总共：{query:name=refer fields=count(id) as coun }<b class="f14 red3">{$item['coun']}</b>个{/query}</td><td>{query:name=refer fields=count(id) as coun where=`status` eq 0}未处理<a href="{url:/comment/refer_list/status/0}"><b class="red3 f14">{$item['coun']}</b></a>个{/query}</td></tr>
+								<tr><th>评论</th><td colspan="2">{query:name=comment fields=count(id) as coun }总共：<a href="{url:/comment/comment_list}"><b class="red3 f14">{$item['coun']}</b></a>个{/query}</td></tr>
+								<tr><th>退款申请</th><td colspan="2">{query:name=refundment_doc where=pay_status eq 0 fields=count(*) as coun }总共：<a href="{url:/order/refundment_list}"><b class="red3 f14">{$item['coun']}</b></a>个{/query}</td></tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table width="48%" cellspacing="0" cellpadding="5" class="border_table_org" style="float:left">
+			<thead>
+				<tr><th>订单信息</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<table class="list_table2" width="100%">
+							<colgroup>
+								<col width="100px" />
+								<col />
+							</colgroup>
+
+							<tbody>
+								<tr><th>总订单</th><td colspan="2">{query:name=order fields=count(id) as coun where=if_del eq 0}<b class="f14 red3">{$item['coun']}</b>个{/query}</td></tr>
+								<tr><th>新订单</th><td>{query:name=order fields=count(id) as coun where=status eq 1 and if_del eq 0}<b class="f14 red3">{$item['coun']}</b>个{/query}</td></tr>
+								<tr><th>未付款订单</th><td>{query:name=order fields=count(id) as coun where=pay_status eq 0 and if_del eq 0}<a href="{url:/order/order_list/pay_status/0}"><b class="f14 red3">{$item['coun']}</b></a>个{/query}</td></tr>
+								<tr><th>未发货订单</th><td>{query:name=order fields=count(id) as coun where=distribution_status eq 0 and if_del eq 0}<a href="{url:/order/order_list/distribution_status/0}"><b class="f14 red3">{$item['coun']}</b></a>个{/query}</td></tr>
+								<tr><th>七天未确认订单</th><td>{query:name=order fields=count(id) as coun where=distribution_status eq 1 and pay_status eq 1 and status eq 2 and to_days(now())-to_days(send_time)>7 and if_del eq 0}<b class="f14 red3">{$item['coun']}</b>个{/query}</td></tr>
+								<tr><th>完成订单</th><td>{query:name=order fields=count(id) as coun where=`status` eq 5 and if_del eq 0}<a href="{url:/order/order_list/status/5}"><b class="f14 red3">{$item['coun']}</b></a>个{/query}</td></tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table width="98%" cellspacing="0" cellpadding="0" class="border_table_org" style="float:left">
+			<thead>
+				<tr><th>最新10条订单</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="padding:5px 0">
+						<table class="list_table3" width="100%">
+							<thead>
+								<th>订单号</th>
+								<th>收货人</th>
+								<th>支付状态</th>
+								<th>金额</th>
+								<th>下单时间</th>
+								<th>操作</th>
+							</thead>
+							<tbody>
+							{query: name=order as o join=left join delivery as d on o.distribution eq d.id left join payment as p on o.pay_type eq p.id left join user as u on u.id eq o.user_id fields=o.id as oid,d.name as dname,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.if_print,o.order_amount where=o.status l 3 and if_del eq 0 order=o.id desc limit=10}
+							<tr>
+								<td>{$item['order_no']}</td>
+								<td><b>{$item['accept_name']}</b></td>
+								<td>{if:$item['pay_status']==0}未付款{elseif:$item['pay_status']==1}<b>已付款</b>{elseif:$item['pay_status']==2}退款完成{else:}<span class="red"><b>申请退款</b></span>{/if}</td>
+								<td><b class="red3">￥{$item['order_amount']}</b></td>
+								<td>{$item['create_time']}</td>
+								<td>
+									<a href="{url:/order/order_show/id/$item[oid]}"><img class="operator" src="{skin:images/admin/icon_check.gif}" title="查看" /></a>
+									{if:$item['status']<3}
+									<a href="{url:/order/order_edit/id/$item[oid]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" title="编辑"/></a>
+									{/if}
+									<a href="javascript:void(0)" onclick="delModel({link:'{url:/order/order_del/id/$item[oid]}'})" ><img class="operator" src="{skin:images/admin/icon_del.gif}" title="删除"/></a>
+								</td>
+							</tr>
+							{/query}
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

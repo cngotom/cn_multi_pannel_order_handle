@@ -1,0 +1,84 @@
+      
+<link rel="stylesheet" href="{skin:css/giftbook.css}" />
+<!--位置 star-->
+        <div class="theme">
+            <div class="site">
+                <img src="{skin:images/index/gif_08.jpg}">您所在的位置：<a href="../Default.aspx">首页</a> &gt;  礼品册购买</div>
+        </div>
+    <!--位置 end-->
+    <!--礼品册左边 star-->
+    <div class="giftboos_left">
+        <div class="gL03_up">
+            <img src="{skin:images/index/gb03_Top.jpg}"></div>
+        <div class="gL03_middle">
+            
+                    <dl>
+                        <dt>
+                            礼品册主题分类</dt>
+                        
+                                {foreach:items=$festival_list}
+                                      {set:$id = $item['id']}
+                                <dd>
+                                    <a href="{url:/simple/festival/id/$id}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$item['name']}
+                                    </a>
+                                </dd>
+                                {/foreach}
+                    </dl>
+                
+            <dl>
+                <dt>礼品册价位分类</dt>
+                        {foreach:items=$price_list}
+                             {set:$price = $item['price']}
+                        <dd>
+                            <a href="{url:/simple/festival/price/$price}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$price}
+                            </a>
+                        </dd>
+                        {/foreach}
+            </dl>
+        </div>
+        <div class="gL03_down">
+            <img src="{skin:images/index/gb03_Bottom.jpg}"></div>
+    </div>
+    <!--礼品册左边 end-->
+    <!--礼品册右边边 star-->
+    <div class="giftbooks_right">
+        <div class="giftbooks_banner">
+            
+            <a href=""><img src="http://images.dfld.cn/banner/channel_01.jpg" alt="东方礼道礼品册" title="东方礼道礼品册"></a>
+
+
+        </div>
+        <div class="gb_Rcontent_up">
+            <img src="{skin:images/index/rbox_top.jpg}"></div>
+        <div class="gb_Rcontent_middle">
+            <h1>
+                最新礼品推荐</h1>
+            <ul class="gb03_product">
+                        {foreach:items=$volumes_list}
+                            {set:$id = $item['id'];
+                                $thumbs =  explode(',',$item['thumb']);
+                                $thumbs = preg_replace( "/(\.\w*$)/" ,"_175_175$1" ,$thumbs  );
+                            }
+                           <li>
+                            <div class="pic">
+                                <a href="{url:/simple/volumes/id/$id}">
+                                    <img src="{$thumbs[0]}"></a></div>
+                            <h3 class="pro_info">
+                                {$item['title']}</h3>
+                        </li>
+                        {/foreach}
+                
+                
+                     
+            </ul>
+            
+      
+        </div>
+        <div class="pages_bar">
+                 {$pageHtml}
+        </div>
+        <div class="gb_Rcontent_down">
+            
+            <img src="{skin:images/index/rbox_bottom.jpg}"></div>
+    </div>
+    <!--礼品册右边边 end-->

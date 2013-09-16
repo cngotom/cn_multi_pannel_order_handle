@@ -1,0 +1,36 @@
+<div class="container">
+	<table class="table">
+
+
+
+		<thead>
+			<th> 成交日期 </th>
+			<th> 成交金额 </th>
+			<th> 订单数量 </th>
+			<th> 利润  </th>
+		</thead>
+
+		<tbody>
+
+			{foreach:items=$orders item=$item}
+					<tr> 
+						<td>{$item['time']}	</td>
+						<td>{$item['price']}	</td>
+						<td>{$item['onum']}	</td>
+						<td> 0</td>
+					</tr>
+			{/foreach}
+
+		</tbody>
+
+
+
+
+
+
+
+
+
+	</table>
+
+</div>

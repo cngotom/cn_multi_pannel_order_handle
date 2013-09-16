@@ -1,0 +1,253 @@
+{set:
+	$seo_data=array();
+	$site_config=new Config('site_config');
+	$seo_data['title']=$name."_".$site_config->name;
+	$seo_data['keywords']=$keywords;
+	$seo_data['description']=$description;
+	seo::set($seo_data);
+}
+{js:artTemplate}
+{js:cookie}
+<link rel="stylesheet" type="text/css" href="{theme:javascript/jquery.jqzoom/css/jquery.jqzoom.css}" />
+<script type="text/javascript" src="{theme:javascript/jquery.jqzoom/js/jquery.jqzoom-core-pack.js}"></script>
+
+<link rel="stylesheet" type="text/css" href="{theme:javascript/jquery.bxSlider/jquery.bxslider.css}" />
+<script type="text/javascript" src="{theme:javascript/jquery.bxSlider/jquery.bxSlider.min.js}"></script>
+
+<div class="position"><span>您当前的位置：</span><a href="{url:}"> 首页</a> » {if:isset($category['id'])}<a href="{url:/simple/volumes/id/$volumes_info[id]}">{$volumes_info['title']}</a> » {/if}{$name}</div>
+<div class="wrapper clearfix">
+	<div class="summary">
+		<h2>{$name}</h2>
+
+		<!--货品ID，当为商品时值为空-->
+		<input type='hidden' id='product_id' alt='货品ID' value='' />
+
+		<!--基本信息区域-->
+		<ul>
+			<li>
+				<span class="f_r light_gray">商品编号：<label id="data_goodsNo">{echo:$goods_no?$goods_no:$id}</label></span>
+				{if:isset($brand)}品牌：{$brand}{/if}
+			</li>
+
+
+			<!--商品价格-->
+			<li id='priceLi'>价格： {$volumes_info['price']}</li>
+
+			<li>
+				库存：现货<span>(<label id="data_storeNums">{$store_nums}</label>)</span>
+			</li>
+
+		
+
+		</ul>
+
+		<!--配送方式的模板-->
+		<script type='text/html' id='deliveInfoTemplate'>
+			<%if(if_delivery == 0){%>
+			<%=name%>：<b class="orange"><%=price%></b>（<%=description%>）
+			&nbsp;&nbsp;
+			<%}else{%>
+			<%=name%>：<b class="orange">该地区无法送达</b>
+			&nbsp;&nbsp;
+			<%}%>
+		</script>
+
+		<!--商品价格模板-->
+		<script type='text/html' id='priceTemplate'>
+		<%if(group_price){%>
+		<li id='priceLi'>
+			会员价：<b class="price red2"><span class="f30" id="real_price"><%=group_price%></span></b> &nbsp;&nbsp;&nbsp;
+			销售价：<s><%if(minSellPrice != maxSellPrice){%>￥<%=minSellPrice%> - ￥<%=maxSellPrice%><%}else{%>￥<%=sell_price%><%}%></s>
+		</li>
+		<%}else{%>
+		<li id='priceLi'>销售价：<b class="price red2"><span class="f30" id="real_price"><%if(minSellPrice != maxSellPrice){%>￥<%=minSellPrice%> - ￥<%=maxSellPrice%><%}else{%>￥<%=sell_price%><%}%></span></b></li>
+		<%}%>
+		</script>
+
+		<!--购买区域-->
+		<div class="current">
+		{if:$store_nums <= 0}
+			该商品已售完，不能购买，您可以看看其它商品！(<a href="{url:/simple/arrival/goods_id/$id}" class="orange">到货通知</a>)
+		{else:}
+			{if:$spec_array}
+			{set:$specArray = JSON::decode($spec_array);}
+			{foreach:items=$specArray}
+			<dl class="m_10 clearfix" name="specCols">
+				<dt>{$item['name']}：</dt>
+				<dd class="w_45" style="margin-left:67px;" id="specList{$item['id']}">
+					{set:$specVal=explode(',',trim($item['value'],','))}
+					{foreach:items=$specVal item=$spec_value}
+					{if:$item['type'] == 1}
+					<div class="item w_27"><a href="javascript:void(0);" onclick="sele_spec(this);" value='{"id":"{$item['id']}","type":"{$item['type']}","value":"{$spec_value}","name":"{$item['name']}"}' >{$spec_value}<span></span></a></div>
+					{else:}
+					<div class="item"><a href="javascript:void(0);" onclick="sele_spec(this);" value='{"id":"{$item['id']}","type":"{$item['type']}","value":"{$spec_value}","name":"{$item['name']}"}' ><img src="{webroot:$spec_value}" width='30px' height='30px' /><span></span></a></div>
+					{/if}
+					{/foreach}
+				</dd>
+			</dl>
+			{/foreach}
+			{/if}
+
+		
+
+			{if:isset($spec_array) && $spec_array}
+			<p class="m_10">已选择：<span class="orange bold" id="specSelected"></span></p>
+
+			<!--货品规格模板-->
+			<script type='text/html' id='selectedSpecTemplate'>
+				<%if(type == 1){%>
+					<span id="selectedSpan<%=id%>">“<%=value%>”</span>
+				<%}else{%>
+					<span id="selectedSpan<%=id%>"><img class="img_border" src="{webroot:<%=value%>}" width="30px" height="30px" /></span>
+				<%}%>
+			</script>
+			{/if}
+
+                        <div style="width:169px;float: left;"><input class="submit_buy" type="button" id="buyNowButton" onclick="buy_now();" value="立即购买" /></div>
+			<div class="shop_cart" style="z-index:1;">
+
+				<div class="shopping" id="product_myCart" style='display:none'>
+					<dl class="cart_stats">
+						<dt class="gray f14 bold">
+							<a class="close_2 f_r" href="javascript:closeCartDiv();" title="关闭">关闭</a>
+							<img src="{skin:images/front/right_s.gif}" width="24" height="24" alt="" />成功加入购物车
+						</dt>
+						<dd class="gray">目前选购商品共<b class="orange" name='mycart_count'></b>件<span>合计：<b name='mycart_sum'></b></span></dd>
+						<dd><a class="btn_blue bold" href="{url:/simple/cart}">进入购物车</a><a class="btn_blue bold" href="javascript:void(0)" onclick="closeCartDiv();">继续购物>></a></dd>
+					</dl>
+				</div>
+			</div>
+		{/if}
+		</div>
+
+	</div>
+
+	<!--图片放大镜-->
+	<div class="preview">
+		<div class="pic_show" style="width:435px;height:435px;position:relative;z-index:5">
+			<a class="jqzoom" href="javascript:void(0)" rel='goodsPhoto' id="bigPicBox" alt="原图">
+				<img src="{skin:images/front/nopic_435_435.gif}" style="border:none;width:435px;height:435px" id="smallPicBox" alt="缩略图" />
+			</a>
+		</div>
+
+		<div class="m_10 bx_wrap">
+			<div class="bx_container">
+				<ul id="thumblist" class="pic_thumb m_10">
+					{foreach:items=$photo}
+					{set:$bigImg=IUrl::creatUrl().$item['img'];$smallImg=Thumb::get($item['img'],435,435);}
+					<li>
+						<a href='javascript:void(0);' rel="{gallery:'goodsPhoto',smallimage:'{$smallImg}',largeimage:'{$bigImg}'}">
+							<img src='{$smallImg}' width="60px" height="60px" />
+						</a>
+					</li>
+					{/foreach}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="t_l">
+	{if:isset($photo) && $photo}
+	<a class="zoom blue" href="{url:/site/pic_show/id/$id}">点击看大图</a>
+	{/if}
+</div>
+
+<div class="wrapper clearfix container_2">
+
+	<!--滑动面tab标签-->
+	<div >
+
+		<!-- 商品详情 start -->
+		<div id="tab_1" name="div_name">
+			<ul class="saleinfos m_10 clearfix">
+				<li>商品名称：{$name}</li>
+
+				{if:isset($brand) && $brand}
+				<li>品牌：{$brand}</li>
+				{/if}
+
+				{if:isset($weight) && $weight}
+				<li>商品毛重：<label id="data_weight">{$weight}</label></li>
+				{/if}
+
+				{if:isset($unit) && $unit}
+				<li>单位：{$unit}</li>
+				{/if}
+
+				{if:isset($up_time) && $up_time}
+				<li>上架时间：{$up_time}</li>
+				{/if}
+
+				
+			</ul>
+			{if:isset($content) && $content}
+			<div class="salebox">
+				<strong class="saletitle block">产品描述：</strong>
+				<p class="saledesc">{$content}</p>
+			</div>
+			{/if}
+		</div>
+		<!-- 商品详情 end -->
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function(){
+
+//图片初始化
+var goodsSmallPic = "{skin:images/front/nopic_435_435.gif}";
+var goodsBigPic   = "{skin:images/front/nopic_435_435.gif}";
+
+//存在图片数据时候
+{if:isset($photo) && $photo}
+goodsSmallPic = "{echo:Thumb::get($photo[0]['img'],435,435)}";
+goodsBigPic   = "{webroot:}{$photo[0]['img']}";
+{/if}
+
+//初始化商品轮换图
+var bxObj = $('#thumblist').bxSlider({
+	infiniteLoop: false,
+	hideControlOnEnd: true,
+	pager:false,
+	minSlides: 5,
+	maxSlides: 5,
+	slideWidth: 72,
+	slideMargin: 15,
+	controls:true,
+	onSliderLoad:function(currentIndex){
+		//设置图片
+		$('#smallPicBox').attr('src',goodsSmallPic);
+		$('#bigPicBox').attr('href',goodsBigPic);
+
+		//开启放大镜
+		$('.jqzoom').jqzoom({
+			title:false,
+			lens:true,
+			preloadText:'加载中...',
+			zoomWidth:300,
+			zoomHeight:300,
+			xOffset:15,
+		    zoomType: 'standard',
+		    preloadImages: false
+		});
+	}
+});
+
+
+});
+
+//立即购买按钮
+function buy_now()
+{
+	
+        var id = {$goods_id};
+	//普通购买
+	var url = '{url:/simple/card_do_exchange/ex_goods_id/@id@}';
+	url = url.replace('@id@',id);
+
+	//页面跳转
+	window.location.href = url;
+}
+</script>

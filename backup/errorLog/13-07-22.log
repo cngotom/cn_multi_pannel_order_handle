@@ -1,0 +1,63 @@
+<ERROR_INFO>
+errID:2
+errStr:join() [<a href='function.join'>function.join</a>]: Invalid arguments passed
+errFile:E:\Projects\php\zunpingou\controllers\order.php
+errLine:970
+errTime:13-07-22 22:39:10
+##出错时变量的值：##
+array (
+  'id' => 0,
+  'tb_order' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_collection_doc',
+     'tableData' => 
+    array (
+      'if_del' => 0,
+    ),
+  )),
+  'logObj' => 
+  Log::__set_state(array(
+     'logType' => 'file',
+     'log' => 
+    IDBLog::__set_state(array(
+       'tableName' => '',
+    )),
+     'logInfo' => 
+    array (
+      'error' => 
+      array (
+        'table' => 'log_error',
+        'cols' => 
+        array (
+          0 => 'file',
+          1 => 'line',
+          2 => 'content',
+        ),
+      ),
+      'sql' => 
+      array (
+        'table' => 'log_sql',
+        'cols' => 
+        array (
+          0 => 'content',
+          1 => 'runtime',
+        ),
+      ),
+      'operation' => 
+      array (
+        'table' => 'log_operation',
+        'cols' => 
+        array (
+          0 => 'author',
+          1 => 'action',
+          2 => 'content',
+        ),
+      ),
+    ),
+  )),
+)
+<\ERROR_INFO>

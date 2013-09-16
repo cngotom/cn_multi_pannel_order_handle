@@ -1,0 +1,697 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\card_list.php
+errLine:53
+errTime:13-08-17 15:27:01
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\card_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '/' found
+errFile:D:\projects\php\zunpingou\runtime\simple\festival.php
+errLine:208
+errTime:13-08-17 15:51:50
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\simple\\festival.php',
+  'data' => NULL,
+  'pageHtml' => '<div class=\'pages_bar\'><a href=\'/index.php?controller=simple&amp;action=festival&amp;page=1\' >首页</a><a class=\'current_page\' href=\'/index.php?controller=simple&amp;action=festival&amp;page=1\' >1</a><a href=\'/index.php?controller=simple&amp;action=festival&amp;page=2\' >2</a><a href=\'/index.php?controller=simple&amp;action=festival&amp;page=2\' >尾页</a><span>当前第1页/共2页</span></div>',
+  'volumes_list' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/17/20130817033529162.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+  ),
+  'festival_list' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '2013中秋节',
+      'parent_id' => '0',
+      'sort' => '0',
+      'keywords' => NULL,
+      'descript' => NULL,
+      'title' => NULL,
+      'visibility' => '1',
+    ),
+    1 => 
+    array (
+      'id' => '5',
+      'name' => '端午节',
+      'parent_id' => '0',
+      'sort' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'visibility' => '1',
+    ),
+    2 => 
+    array (
+      'id' => '6',
+      'name' => '国庆节',
+      'parent_id' => '0',
+      'sort' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'visibility' => '1',
+    ),
+    3 => 
+    array (
+      'id' => '7',
+      'name' => '元旦',
+      'parent_id' => '0',
+      'sort' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'visibility' => '1',
+    ),
+  ),
+  'price_list' => 
+  array (
+    0 => 
+    array (
+      'price' => '200',
+    ),
+    1 => 
+    array (
+      'price' => '555',
+    ),
+  ),
+  'user' => 
+  array (
+    'user_id' => false,
+    'username' => false,
+    'head_ico' => false,
+  ),
+  'myCartObj' => 
+  Cart::__set_state(array(
+     'cartStruct' => 
+    array (
+      'goods' => 
+      array (
+      ),
+      'product' => 
+      array (
+      ),
+    ),
+     'cartExeStruct' => 
+    array (
+      'goods' => 
+      array (
+        'id' => 
+        array (
+        ),
+        'data' => 
+        array (
+        ),
+      ),
+      'product' => 
+      array (
+        'id' => 
+        array (
+        ),
+        'data' => 
+        array (
+        ),
+      ),
+      'count' => 0,
+      'sum' => 0,
+    ),
+     'cartName' => 'shoppingcart',
+     'maxCount' => 100,
+     'error' => '',
+     'saveType' => 'cookie',
+  )),
+  'myCartInfo' => 
+  array (
+    'goods' => 
+    array (
+      'id' => 
+      array (
+      ),
+      'data' => 
+      array (
+      ),
+    ),
+    'product' => 
+    array (
+      'id' => 
+      array (
+      ),
+      'data' => 
+      array (
+      ),
+    ),
+    'count' => 0,
+    'sum' => 0,
+  ),
+  'siteConfig' => 
+  Config::__set_state(array(
+     'configFile' => 'D:/projects/php/zunpingou/config/site_config.php',
+     'config' => 
+    array (
+      'email_type' => '1',
+      'mail_address' => '',
+      'smtp' => '',
+      'smtp_user' => '',
+      'smtp_pwd' => '',
+      'smtp_port' => '',
+      'order_by' => 'new',
+      'order_type' => 'asc',
+      'list_type' => 'win',
+      'list_num' => '9',
+      'auto_finish' => '1',
+      'index_slide' => 'a:5:{i:0;a:3:{s:4:"name";s:25:"2013中秋节特别推荐";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756409.jpg";}i:1;a:3:{s:4:"name";s:27:"正品拉杆箱超值兑换";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756990.jpg";}i:2;a:3:{s:4:"name";s:21:"礼品册兑换流程";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756755.jpg";}i:3;a:3:{s:4:"name";s:27:"东方礼道礼品册定制";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015820118.jpg";}i:4;a:3:{s:4:"name";s:15:"大客户专区";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015820137.jpg";}}',
+      'list_thumb_width' => '175',
+      'list_thumb_height' => '175',
+      'show_thumb_width' => '100',
+      'show_thumb_height' => '100',
+      'name' => 'iwebshop',
+      'url' => 'http://www.jooyea.cn',
+      'master' => '',
+      'qq' => '',
+      'email' => '',
+      'mobile' => '',
+      'phone' => '',
+      'address' => '',
+      'site_footer_code' => '<div class=\\"footer\\">	<p class=\\"links\\">		<a href=\\"\\">关于我们</a>|<a href=\\"\\">常见问题</a>|<a href=\\"\\">安全交易</a>|<a href=\\"\\">购买流程</a>|<a href=\\"\\">如何付款</a>|<a href=\\"\\">联系我们</a>|<a href=\\"\\">合作提案</a>	</p><span class=\\"fr\\"> <br />© 2005-2013 三六五绿色商城 版权所有，并保留所有权利。 <a href=\\"http://www.miibeian.gov.cn/\\" target=\\"_blank\\">京ICP备12016225(1/3)号</a> <br />北京市朝阳区望京南湖西园（香颂）221号楼506室             Tel: 010-84765539 <a href=\\"http://wpa.qq.com/msgrd?V=1&amp;Uin=1125745697&amp;Site=%E4%B8%89%E5%85%AD%E4%BA%94%E7%BB%BF%E8%89%B2%E5%95%86%E5%9F%8E&amp;Menu=yes\\" target=\\"_blank\\"><img src=\\"http://wpa.qq.com/pa?p=1:1125745697:4\\" height=\\"16\\" border=\\"0\\" alt=\\"QQ\\" /> 1125745697</a> </span></div>',
+      'tax' => '10',
+      'stockup_time' => '1',
+      'regiment_time_limit' => '60',
+      'index_seo_title' => '',
+      'index_seo_keywords' => '',
+      'index_seo_description' => '',
+      'goods_no_pre' => 'SD',
+    ),
+  )),
+  'callback' => '',
+  'hot_words' => 
+  array (
+    0 => '礼品册',
+    1 => '中秋',
+    2 => '生日礼物',
+    3 => '年会礼物',
+    4 => '送长辈',
+  ),
+  'word' => '送长辈',
+  'key' => 0,
+  'tmpWord' => '%E9%80%81%E9%95%BF%E8%BE%88',
+  'i' => 2,
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_guide',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'order' => '0',
+      'name' => '兑换中心',
+      'link' => 'simple/exchange',
+    ),
+    1 => 
+    array (
+      'order' => '1',
+      'name' => '礼册',
+      'link' => 'simple/festival',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/17/20130817033529162.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'id' => '2',
+  'price' => '555',
+  'thumbs' => 
+  array (
+    0 => 'upload/2013/08/17/20130817033529162.jpg',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: gid
+errFile:D:\projects\php\zunpingou\runtime\simple\volumes.php
+errLine:200
+errTime:13-08-17 16:09:02
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\simple\\volumes.php',
+  'data' => NULL,
+  'id' => '2',
+  'title' => '中秋200礼卡',
+  'thumb' => 'upload/2013/08/17/20130817033529162.jpg',
+  'price' => '200',
+  'desc' => '中秋200礼卡',
+  'create_time' => '1375504046',
+  'festival_id' => '1',
+  'sort' => '0',
+  'volumes_goods_info' => 
+  array (
+    0 => 
+    array (
+      'title' => '中秋200礼卡',
+      'id' => '2',
+      'price' => '200',
+      'gname' => '85C锦绣月饼礼盒',
+      'gid' => '3',
+      'limg' => 'upload/2013/08/17/20130817040409802_175_175.jpg',
+    ),
+  ),
+  'user' => 
+  array (
+    'user_id' => false,
+    'username' => false,
+    'head_ico' => false,
+  ),
+  'myCartObj' => 
+  Cart::__set_state(array(
+     'cartStruct' => 
+    array (
+      'goods' => 
+      array (
+      ),
+      'product' => 
+      array (
+      ),
+    ),
+     'cartExeStruct' => 
+    array (
+      'goods' => 
+      array (
+        'id' => 
+        array (
+        ),
+        'data' => 
+        array (
+        ),
+      ),
+      'product' => 
+      array (
+        'id' => 
+        array (
+        ),
+        'data' => 
+        array (
+        ),
+      ),
+      'count' => 0,
+      'sum' => 0,
+    ),
+     'cartName' => 'shoppingcart',
+     'maxCount' => 100,
+     'error' => '',
+     'saveType' => 'cookie',
+  )),
+  'myCartInfo' => 
+  array (
+    'goods' => 
+    array (
+      'id' => 
+      array (
+      ),
+      'data' => 
+      array (
+      ),
+    ),
+    'product' => 
+    array (
+      'id' => 
+      array (
+      ),
+      'data' => 
+      array (
+      ),
+    ),
+    'count' => 0,
+    'sum' => 0,
+  ),
+  'siteConfig' => 
+  Config::__set_state(array(
+     'configFile' => 'D:/projects/php/zunpingou/config/site_config.php',
+     'config' => 
+    array (
+      'email_type' => '1',
+      'mail_address' => '',
+      'smtp' => '',
+      'smtp_user' => '',
+      'smtp_pwd' => '',
+      'smtp_port' => '',
+      'order_by' => 'new',
+      'order_type' => 'asc',
+      'list_type' => 'win',
+      'list_num' => '9',
+      'auto_finish' => '1',
+      'index_slide' => 'a:5:{i:0;a:3:{s:4:"name";s:25:"2013中秋节特别推荐";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756409.jpg";}i:1;a:3:{s:4:"name";s:27:"正品拉杆箱超值兑换";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756990.jpg";}i:2;a:3:{s:4:"name";s:21:"礼品册兑换流程";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756755.jpg";}i:3;a:3:{s:4:"name";s:27:"东方礼道礼品册定制";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015820118.jpg";}i:4;a:3:{s:4:"name";s:15:"大客户专区";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015820137.jpg";}}',
+      'list_thumb_width' => '175',
+      'list_thumb_height' => '175',
+      'show_thumb_width' => '100',
+      'show_thumb_height' => '100',
+      'name' => 'iwebshop',
+      'url' => 'http://www.jooyea.cn',
+      'master' => '',
+      'qq' => '',
+      'email' => '',
+      'mobile' => '',
+      'phone' => '',
+      'address' => '',
+      'site_footer_code' => '<div class=\\"footer\\">	<p class=\\"links\\">		<a href=\\"\\">关于我们</a>|<a href=\\"\\">常见问题</a>|<a href=\\"\\">安全交易</a>|<a href=\\"\\">购买流程</a>|<a href=\\"\\">如何付款</a>|<a href=\\"\\">联系我们</a>|<a href=\\"\\">合作提案</a>	</p><span class=\\"fr\\"> <br />© 2005-2013 三六五绿色商城 版权所有，并保留所有权利。 <a href=\\"http://www.miibeian.gov.cn/\\" target=\\"_blank\\">京ICP备12016225(1/3)号</a> <br />北京市朝阳区望京南湖西园（香颂）221号楼506室             Tel: 010-84765539 <a href=\\"http://wpa.qq.com/msgrd?V=1&amp;Uin=1125745697&amp;Site=%E4%B8%89%E5%85%AD%E4%BA%94%E7%BB%BF%E8%89%B2%E5%95%86%E5%9F%8E&amp;Menu=yes\\" target=\\"_blank\\"><img src=\\"http://wpa.qq.com/pa?p=1:1125745697:4\\" height=\\"16\\" border=\\"0\\" alt=\\"QQ\\" /> 1125745697</a> </span></div>',
+      'tax' => '10',
+      'stockup_time' => '1',
+      'regiment_time_limit' => '60',
+      'index_seo_title' => '',
+      'index_seo_keywords' => '',
+      'index_seo_description' => '',
+      'goods_no_pre' => 'SD',
+    ),
+  )),
+  'callback' => '',
+  'hot_words' => 
+  array (
+    0 => '礼品册',
+    1 => '中秋',
+    2 => '生日礼物',
+    3 => '年会礼物',
+    4 => '送长辈',
+  ),
+  'word' => '送长辈',
+  'key' => 0,
+  'tmpWord' => '%E9%80%81%E9%95%BF%E8%BE%88',
+  'i' => 2,
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_guide',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'order' => '0',
+      'name' => '兑换中心',
+      'link' => 'simple/exchange',
+    ),
+    1 => 
+    array (
+      'order' => '1',
+      'name' => '礼册',
+      'link' => 'simple/festival',
+    ),
+  ),
+  'item' => 
+  array (
+    'title' => '中秋200礼卡',
+    'id' => '2',
+    'price' => '200',
+    'gname' => '85C锦绣月饼礼盒',
+    'gid' => '3',
+    'limg' => 'upload/2013/08/17/20130817040409802_175_175.jpg',
+  ),
+  'thumbs' => 
+  array (
+    0 => 'upload/2013/08/17/20130817033529162.jpg',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: gid
+errFile:D:\projects\php\zunpingou\runtime\simple\volumes.php
+errLine:200
+errTime:13-08-17 16:09:15
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\simple\\volumes.php',
+  'data' => NULL,
+  'id' => '2',
+  'title' => '中秋200礼卡',
+  'thumb' => 'upload/2013/08/17/20130817033529162.jpg',
+  'price' => '200',
+  'desc' => '中秋200礼卡',
+  'create_time' => '1375504046',
+  'festival_id' => '1',
+  'sort' => '0',
+  'volumes_goods_info' => 
+  array (
+    0 => 
+    array (
+      'title' => '中秋200礼卡',
+      'id' => '2',
+      'price' => '200',
+      'gname' => '85C锦绣月饼礼盒',
+      'gid' => '3',
+      'limg' => 'upload/2013/08/17/20130817040409802_175_175.jpg',
+    ),
+  ),
+  'user' => 
+  array (
+    'user_id' => false,
+    'username' => false,
+    'head_ico' => false,
+  ),
+  'myCartObj' => 
+  Cart::__set_state(array(
+     'cartStruct' => 
+    array (
+      'goods' => 
+      array (
+      ),
+      'product' => 
+      array (
+      ),
+    ),
+     'cartExeStruct' => 
+    array (
+      'goods' => 
+      array (
+        'id' => 
+        array (
+        ),
+        'data' => 
+        array (
+        ),
+      ),
+      'product' => 
+      array (
+        'id' => 
+        array (
+        ),
+        'data' => 
+        array (
+        ),
+      ),
+      'count' => 0,
+      'sum' => 0,
+    ),
+     'cartName' => 'shoppingcart',
+     'maxCount' => 100,
+     'error' => '',
+     'saveType' => 'cookie',
+  )),
+  'myCartInfo' => 
+  array (
+    'goods' => 
+    array (
+      'id' => 
+      array (
+      ),
+      'data' => 
+      array (
+      ),
+    ),
+    'product' => 
+    array (
+      'id' => 
+      array (
+      ),
+      'data' => 
+      array (
+      ),
+    ),
+    'count' => 0,
+    'sum' => 0,
+  ),
+  'siteConfig' => 
+  Config::__set_state(array(
+     'configFile' => 'D:/projects/php/zunpingou/config/site_config.php',
+     'config' => 
+    array (
+      'email_type' => '1',
+      'mail_address' => '',
+      'smtp' => '',
+      'smtp_user' => '',
+      'smtp_pwd' => '',
+      'smtp_port' => '',
+      'order_by' => 'new',
+      'order_type' => 'asc',
+      'list_type' => 'win',
+      'list_num' => '9',
+      'auto_finish' => '1',
+      'index_slide' => 'a:5:{i:0;a:3:{s:4:"name";s:25:"2013中秋节特别推荐";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756409.jpg";}i:1;a:3:{s:4:"name";s:27:"正品拉杆箱超值兑换";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756990.jpg";}i:2;a:3:{s:4:"name";s:21:"礼品册兑换流程";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015756755.jpg";}i:3;a:3:{s:4:"name";s:27:"东方礼道礼品册定制";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015820118.jpg";}i:4;a:3:{s:4:"name";s:15:"大客户专区";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2013/08/10/20130810015820137.jpg";}}',
+      'list_thumb_width' => '175',
+      'list_thumb_height' => '175',
+      'show_thumb_width' => '100',
+      'show_thumb_height' => '100',
+      'name' => 'iwebshop',
+      'url' => 'http://www.jooyea.cn',
+      'master' => '',
+      'qq' => '',
+      'email' => '',
+      'mobile' => '',
+      'phone' => '',
+      'address' => '',
+      'site_footer_code' => '<div class=\\"footer\\">	<p class=\\"links\\">		<a href=\\"\\">关于我们</a>|<a href=\\"\\">常见问题</a>|<a href=\\"\\">安全交易</a>|<a href=\\"\\">购买流程</a>|<a href=\\"\\">如何付款</a>|<a href=\\"\\">联系我们</a>|<a href=\\"\\">合作提案</a>	</p><span class=\\"fr\\"> <br />© 2005-2013 三六五绿色商城 版权所有，并保留所有权利。 <a href=\\"http://www.miibeian.gov.cn/\\" target=\\"_blank\\">京ICP备12016225(1/3)号</a> <br />北京市朝阳区望京南湖西园（香颂）221号楼506室             Tel: 010-84765539 <a href=\\"http://wpa.qq.com/msgrd?V=1&amp;Uin=1125745697&amp;Site=%E4%B8%89%E5%85%AD%E4%BA%94%E7%BB%BF%E8%89%B2%E5%95%86%E5%9F%8E&amp;Menu=yes\\" target=\\"_blank\\"><img src=\\"http://wpa.qq.com/pa?p=1:1125745697:4\\" height=\\"16\\" border=\\"0\\" alt=\\"QQ\\" /> 1125745697</a> </span></div>',
+      'tax' => '10',
+      'stockup_time' => '1',
+      'regiment_time_limit' => '60',
+      'index_seo_title' => '',
+      'index_seo_keywords' => '',
+      'index_seo_description' => '',
+      'goods_no_pre' => 'SD',
+    ),
+  )),
+  'callback' => '',
+  'hot_words' => 
+  array (
+    0 => '礼品册',
+    1 => '中秋',
+    2 => '生日礼物',
+    3 => '年会礼物',
+    4 => '送长辈',
+  ),
+  'word' => '送长辈',
+  'key' => 0,
+  'tmpWord' => '%E9%80%81%E9%95%BF%E8%BE%88',
+  'i' => 2,
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_guide',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'order' => '0',
+      'name' => '兑换中心',
+      'link' => 'simple/exchange',
+    ),
+    1 => 
+    array (
+      'order' => '1',
+      'name' => '礼册',
+      'link' => 'simple/festival',
+    ),
+  ),
+  'item' => 
+  array (
+    'title' => '中秋200礼卡',
+    'id' => '2',
+    'price' => '200',
+    'gname' => '85C锦绣月饼礼盒',
+    'gid' => '3',
+    'limg' => 'upload/2013/08/17/20130817040409802_175_175.jpg',
+  ),
+  'thumbs' => 
+  array (
+    0 => 'upload/2013/08/17/20130817033529162.jpg',
+  ),
+)
+<\ERROR_INFO>

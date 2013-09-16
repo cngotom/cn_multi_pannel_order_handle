@@ -1,0 +1,971 @@
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\site\help_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 21:31:40
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\help_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\help_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\site\\help_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\site.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'site',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\site\help_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 21:31:45
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\help_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\help_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\site\\help_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\site.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'site',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\site\help_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 21:55:50
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\help_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\help_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\site\\help_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\site.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'site',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\brand\category_edit.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:06:24
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\brand\\category_edit',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\brand\\category_edit.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\brand\\category_edit.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:08:37
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:01
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:02
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:02
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:19
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:20
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:20
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:20
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:10:20
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:12:21
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:12:23
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:12:24
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:22
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:22
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:22
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:23
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:23
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:23
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:23
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:23
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:24
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:24
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:93
+errTime:13-07-30 22:13:24
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:44
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:44
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:44
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:45
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:45
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:45
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:45
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:46
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:46
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:46
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:46
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:47
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:47
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:47
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:48
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\gift\festival_list.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:92
+errTime:13-07-30 22:13:48
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\gift\\festival_list.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\admin.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'admin',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:E:\Projects\php\zunpingou\runtime\gift\festival_list.php
+errLine:53
+errTime:13-07-30 22:17:31
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:E:\Projects\php\zunpingou\runtime\gift\festival_list.php
+errLine:53
+errTime:13-07-30 22:17:33
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:E:\Projects\php\zunpingou\runtime\gift\festival_list.php
+errLine:53
+errTime:13-07-30 22:17:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\gift\\festival_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>

@@ -1,0 +1,134 @@
+<div class="headbar">
+	<div class="position"><span>商品</span><span>></span><span>礼卡</span><span>></span><span>礼卡</span></div>
+	<div class="operating">
+		
+		<a href="javascript:;"><button class="operating_btn" type="button" onclick="window.location='{url:/gift/card_edit}'"><span class="addition">添加礼册</span></button></a>
+		<a href="javascript:void(0)" onclick="selectAll('id[]')"><button class="operating_btn" type="button"><span class="sel_all">全选</span></button></a>
+	</div>
+	
+	<div class="field">
+		<table class="list_table">
+			<col width="40px" />
+			<col width="100px" />
+			<col width="100px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="80px" />
+			<col width="70px" />
+			<col width="300px" />
+			<col  width="70px" />
+			<thead>
+				<tr role="head" class="flush_left th_c">
+					<th>选择</th>
+					<th>礼卡账号</th>
+					<th>创建时间</th>
+                                                                        <th>使用时间</th>
+					<th>有效期</th>
+					<th>礼卡状态</th>
+					<th>礼册名称</th>
+                                                                        <th>说明</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+<form action="" method="post" name="orderForm">
+	<div class="content">
+		<table class="list_table">
+			<col width="40px" />
+			<col width="100px" />
+			<col width="100px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="80px" />
+			<col width="70px" />
+			<col width="300px" />
+			<col  width="70px"/>
+			<tbody>
+			          {set:$page= (isset($_GET['page'])&&(intval($_GET['page'])>0))?intval($_GET['page']):1;}
+                                                        {query: name=gift_card as gift_card  join=left join volumes as volumes on gift_card.volume_id eq volumes.id  distinct=volumes.id fields=gift_card.id,gift_card.no,gift_card.expire,gift_card.is_used,gift_card.create_time,gift_card.use_time,gift_card.message,volumes.title  page=$page id=$card_list order=id desc}
+				<tr class="flush_left td_c">
+					<td><input name="id[]" type="checkbox" value="{$item['id']}" /></td>
+					<td><a href="{url:/site/card/id/$item[id]}" target="_blank" title="{$item['name']}">{$item['no']}</a></td>
+					<td>{set: echo date('Y-m-d H:i:s', $item['create_time'] );   }</td>
+                                                                        <td> {set:    if($item['is_used']==1)    echo date('Y-m-d H:i:s', $item['use_time'] );   }</td>    
+                                                                        <td>{$item['expire']}月</td>
+                                                                        <td>{echo:$item['is_used']==0?'未使用':'已使用'}</td>
+                                                                        <td>{$item['title']}</td>
+                                                                        <td>{$item['message']}</td>
+					<td>
+						<a href="{url:/gift/card_edit/id/$item[id]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="编辑" /></a>
+                                                                                       <a href="javascript:void(0)" onclick="delModel({link:'{url:/gift/card_del/id/$item[id]}'})" ><img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" /></a>
+					</td>
+				</tr>
+				{/query}
+			</tbody>
+		</table>
+	</div>
+</form>
+
+{$card_list->getPageBar()}
+
+<script type="text/javascript">
+    
+
+//排序
+function toSort(id)
+{
+	if(id!='')
+	{
+		var va = $('#s'+id).val();
+		var part = /^\d+$/i;
+		if(va!='' && va!=undefined && part.test(va))
+		{
+			$.get("{url:/gift/gift_sort}",{'id':id,'sort':va}, function(data)
+			{
+				if(data=='1')
+				{
+					alert('修改商品排序成功!');
+				}else
+				{
+					alert('修改商品排序错误!');
+				}
+			});
+		}
+	}
+}
+function gift_del()
+{
+	var flag = 0;
+	$('input:checkbox[name="id[]"]:checked').each(
+		function(i)
+		{
+			flag = 1;
+		}
+	);
+	if(flag == 0 )
+	{
+		alert('请选择要删除的数据');
+		return false;
+	}
+	$("form[name='orderForm']").attr('action','{url:/gift/gift_del}');
+	confirm('确定要删除所选中的信息吗？','formSubmit(\'orderForm\')');
+}
+//上下架操作
+function gift_stats(type)
+{
+	if($('input:checkbox[name="id[]"]:checked').length > 0)
+	{
+		$("form[name='orderForm']").attr('action','{url:/gift/gift_stats/type/}'+type);
+		confirm('确定将选中的商品进行操作吗？',"formSubmit('orderForm')");
+	}
+	else
+	{
+		alert('请选择要操作的商品!');
+		return false;
+	}
+}
+</script>

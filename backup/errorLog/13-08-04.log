@@ -1,0 +1,2159 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\controllers\gift.php
+errLine:62
+errTime:13-08-04 11:57:50
+##出错时变量的值：##
+array (
+  'festival_id' => 1,
+  'parent_id' => 0,
+  'obj_festival' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_festival',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'festival_info' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '2013中秋节',
+      'parent_id' => '0',
+      'desc' => '2013中秋节',
+      'sort' => '0',
+      'keywords' => NULL,
+      'descript' => NULL,
+      'title' => NULL,
+      'visibility' => '1',
+    ),
+  ),
+  'info' => 
+  array (
+    'id' => '1',
+    'name' => '2013中秋节',
+    'parent_id' => '0',
+    'desc' => '2013中秋节',
+    'sort' => '0',
+    'keywords' => NULL,
+    'descript' => NULL,
+    'title' => NULL,
+    'visibility' => '1',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO iwebshop_festival ( `name`,`parent_id`,`sort`,`visibility`,`model_id`,`keywords`,`descript`,`title` ) VALUES ( '2013-8中秋','1','99','1','0','B','','快照问题 需要更新' ) 
+ -- Unknown column 'model_id' in 'field list'
+Line: 118
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysql         	Type:->   	Line:65   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:123  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:festival_save  	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  festival_sort
+errFile:D:\projects\php\zunpingou\controllers\gift.php
+errLine:257
+errTime:13-08-04 12:13:00
+##出错时变量的值：##
+array (
+  'id' => 1,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  parent_id
+errFile:D:\projects\php\zunpingou\classes\goods_class.php
+errLine:121
+errTime:13-08-04 12:41:11
+##出错时变量的值：##
+array (
+  'catArray' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+    1 => 
+    array (
+      'id' => '1',
+      'title' => '中秋500礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111555721.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '555',
+      'desc' => '撒大声地 <img src="/upload/2013/08/03/20130803122651256.jpg" alt="" />',
+      'create_time' => NULL,
+      'festival_id' => '1',
+      'sort' => '123',
+    ),
+  ),
+  'id' => 0,
+  'prefix' => ' &nbsp;&nbsp; ',
+  'formatCat' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 0,
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'name' => '&nbsp;&nbsp;新衣服',
+      'parent_id' => '1',
+      'sort' => '99',
+      'visibility' => '1',
+      'model_id' => '1',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 1,
+    ),
+  ),
+  'floor' => 0,
+  'val' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  parent_id
+errFile:D:\projects\php\zunpingou\classes\goods_class.php
+errLine:121
+errTime:13-08-04 12:41:18
+##出错时变量的值：##
+array (
+  'catArray' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+    1 => 
+    array (
+      'id' => '1',
+      'title' => '中秋500礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111555721.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '555',
+      'desc' => '撒大声地 <img src="/upload/2013/08/03/20130803122651256.jpg" alt="" />',
+      'create_time' => NULL,
+      'festival_id' => '1',
+      'sort' => '123',
+    ),
+  ),
+  'id' => 0,
+  'prefix' => ' &nbsp;&nbsp; ',
+  'formatCat' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 0,
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'name' => '&nbsp;&nbsp;新衣服',
+      'parent_id' => '1',
+      'sort' => '99',
+      'visibility' => '1',
+      'model_id' => '1',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 1,
+    ),
+  ),
+  'floor' => 0,
+  'val' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  parent_id
+errFile:D:\projects\php\zunpingou\classes\goods_class.php
+errLine:121
+errTime:13-08-04 12:41:21
+##出错时变量的值：##
+array (
+  'catArray' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+    1 => 
+    array (
+      'id' => '1',
+      'title' => '中秋500礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111555721.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '555',
+      'desc' => '撒大声地 <img src="/upload/2013/08/03/20130803122651256.jpg" alt="" />',
+      'create_time' => NULL,
+      'festival_id' => '1',
+      'sort' => '123',
+    ),
+  ),
+  'id' => 0,
+  'prefix' => ' &nbsp;&nbsp; ',
+  'formatCat' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 0,
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'name' => '&nbsp;&nbsp;新衣服',
+      'parent_id' => '1',
+      'sort' => '99',
+      'visibility' => '1',
+      'model_id' => '1',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 1,
+    ),
+  ),
+  'floor' => 0,
+  'val' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  parent_id
+errFile:D:\projects\php\zunpingou\classes\goods_class.php
+errLine:121
+errTime:13-08-04 12:42:21
+##出错时变量的值：##
+array (
+  'catArray' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+    1 => 
+    array (
+      'id' => '1',
+      'title' => '中秋500礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111555721.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '555',
+      'desc' => '撒大声地 <img src="/upload/2013/08/03/20130803122651256.jpg" alt="" />',
+      'create_time' => NULL,
+      'festival_id' => '1',
+      'sort' => '123',
+    ),
+  ),
+  'id' => 0,
+  'prefix' => ' &nbsp;&nbsp; ',
+  'formatCat' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 0,
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'name' => '&nbsp;&nbsp;新衣服',
+      'parent_id' => '1',
+      'sort' => '99',
+      'visibility' => '1',
+      'model_id' => '1',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 1,
+    ),
+  ),
+  'floor' => 0,
+  'val' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  parent_id
+errFile:D:\projects\php\zunpingou\classes\goods_class.php
+errLine:121
+errTime:13-08-04 12:42:23
+##出错时变量的值：##
+array (
+  'catArray' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+    1 => 
+    array (
+      'id' => '1',
+      'title' => '中秋500礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111555721.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '555',
+      'desc' => '撒大声地 <img src="/upload/2013/08/03/20130803122651256.jpg" alt="" />',
+      'create_time' => NULL,
+      'festival_id' => '1',
+      'sort' => '123',
+    ),
+  ),
+  'id' => 0,
+  'prefix' => ' &nbsp;&nbsp; ',
+  'formatCat' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 0,
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'name' => '&nbsp;&nbsp;新衣服',
+      'parent_id' => '1',
+      'sort' => '99',
+      'visibility' => '1',
+      'model_id' => '1',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 1,
+    ),
+  ),
+  'floor' => 0,
+  'val' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  parent_id
+errFile:D:\projects\php\zunpingou\classes\goods_class.php
+errLine:121
+errTime:13-08-04 12:42:23
+##出错时变量的值：##
+array (
+  'catArray' => 
+  array (
+    0 => 
+    array (
+      'id' => '2',
+      'title' => '中秋200礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '200',
+      'desc' => '中秋200礼卡',
+      'create_time' => '1375504046',
+      'festival_id' => '1',
+      'sort' => '0',
+    ),
+    1 => 
+    array (
+      'id' => '1',
+      'title' => '中秋500礼卡',
+      'thumb' => 'upload/2013/08/03/20130803111555721.jpg,upload/2013/08/03/20130803111550880.jpg',
+      'price' => '555',
+      'desc' => '撒大声地 <img src="/upload/2013/08/03/20130803122651256.jpg" alt="" />',
+      'create_time' => NULL,
+      'festival_id' => '1',
+      'sort' => '123',
+    ),
+  ),
+  'id' => 0,
+  'prefix' => ' &nbsp;&nbsp; ',
+  'formatCat' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 0,
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'name' => '&nbsp;&nbsp;新衣服',
+      'parent_id' => '1',
+      'sort' => '99',
+      'visibility' => '1',
+      'model_id' => '1',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+      'floor' => 1,
+    ),
+  ),
+  'floor' => 0,
+  'val' => 
+  array (
+    'id' => '2',
+    'title' => '中秋200礼卡',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg,upload/2013/08/03/20130803111550880.jpg',
+    'price' => '200',
+    'desc' => '中秋200礼卡',
+    'create_time' => '1375504046',
+    'festival_id' => '1',
+    'sort' => '0',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE group by volume_id limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by volume_id limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:301  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_del     	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE group by volume_id
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by volume_id' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:301  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_del     	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE group by volume_id
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by volume_id' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:301  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_del     	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE group by volume_id
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by volume_id' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:301  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_del     	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  2
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:104
+errTime:13-08-04 16:55:45
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    0 => 
+    array (
+      'volume_id' => '2',
+      'count' => '1',
+    ),
+    1 => 
+    array (
+      'volume_id' => '3',
+      'count' => '1',
+    ),
+  ),
+  'card_num_map' => 
+  array (
+    0 => 
+    array (
+      'volume_id' => '1',
+      'count' => '1',
+    ),
+    1 => 
+    array (
+      'volume_id' => '2',
+      'count' => '1',
+    ),
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '2',
+    'v_title' => '中秋200礼卡',
+    'price' => '200',
+    'sort' => '0',
+    'create_time' => '1375504046',
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 1,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  2
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:104
+errTime:13-08-04 16:55:55
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    0 => 
+    array (
+      'volume_id' => '2',
+      'count' => '1',
+    ),
+    1 => 
+    array (
+      'volume_id' => '3',
+      'count' => '1',
+    ),
+  ),
+  'card_num_map' => 
+  array (
+    0 => 
+    array (
+      'volume_id' => '1',
+      'count' => '1',
+    ),
+    1 => 
+    array (
+      'volume_id' => '2',
+      'count' => '1',
+    ),
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '2',
+    'v_title' => '中秋200礼卡',
+    'price' => '200',
+    'sort' => '0',
+    'create_time' => '1375504046',
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 1,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  1
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:104
+errTime:13-08-04 16:58:41
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  1
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:104
+errTime:13-08-04 16:58:46
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  1
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:104
+errTime:13-08-04 16:58:47
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  1
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:104
+errTime:13-08-04 16:58:49
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goods_num_ma
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-04 17:02:38
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goods_num_ma
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-04 17:02:38
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goods_num_ma
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-04 17:02:39
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goods_num_ma
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-04 17:02:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goods_num_ma
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-04 17:02:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goods_num_ma
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-04 17:02:41
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'goods_num_map' => 
+  array (
+    2 => '1',
+    3 => '1',
+  ),
+  'card_num_map' => 
+  array (
+    1 => '1',
+    2 => '1',
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'v_title' => '中秋500礼卡',
+      'price' => '555',
+      'sort' => '123',
+      'create_time' => NULL,
+      'f_name' => '2013中秋节',
+    ),
+    1 => 
+    array (
+      'id' => '2',
+      'v_title' => '中秋200礼卡',
+      'price' => '200',
+      'sort' => '0',
+      'create_time' => '1375504046',
+      'f_name' => '2013中秋节',
+    ),
+  ),
+  'page' => 1,
+  'volumes_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_volumes as volumes',
+      'fields' => 'volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name',
+      'where' => '',
+      'join' => 'left join iwebshop_festival  as festival on festival.id = volumes.festival_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select distinct volumes.id,volumes.title as v_title,volumes.price, volumes.sort,volumes.create_time, festival.name as f_name from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    ',
+       'rows' => '2',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'item' => 
+  array (
+    'id' => '1',
+    'v_title' => '中秋500礼卡',
+    'price' => '555',
+    'sort' => '123',
+    'create_time' => NULL,
+    'f_name' => '2013中秋节',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  left join iwebshop_commend_goods  as cg on cg.goods_id = goods.id  where  1  and cg.commend_id=2 and goods_id in () and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:152  	File:D:\projects\php\zunpingou\runtime\goods\goods_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:898  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  left join iwebshop_commend_goods  as cg on cg.goods_id = goods.id  where  1  and cg.commend_id=2 and goods_id in () and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:152  	File:D:\projects\php\zunpingou\runtime\goods\goods_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:898  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  left join iwebshop_commend_goods  as cg on cg.goods_id = goods.id  where  1  and cg.commend_id=2 and id in () and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:152  	File:D:\projects\php\zunpingou\runtime\goods\goods_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:898  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  left join iwebshop_commend_goods  as cg on cg.goods_id = goods.id  where  1  and cg.commend_id=2 and goods.id in () and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:152  	File:D:\projects\php\zunpingou\runtime\goods\goods_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:898  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  left join iwebshop_commend_goods  as cg on cg.goods_id = goods.id  where  1  and cg.commend_id=2 and goods.id in () and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:152  	File:D:\projects\php\zunpingou\runtime\goods\goods_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:898  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM iwebshop_volumes_goods WHERE volume_id =1/category/2 limit 500
+ -- Unknown column 'category' in 'where clause'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:884  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM iwebshop_volumes_goods WHERE volume_id =1/category/2 limit 500
+ -- Unknown column 'category' in 'where clause'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:884  	File:D:\projects\php\zunpingou\controllers\goods.php
+	Func:goods_list     	Class:Goods          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>

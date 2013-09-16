@@ -1,0 +1,142 @@
+<div class="headbar">
+	<div class="position"><span>系统</span><span>></span><span>配送管理</span><span>></span><span>地区管理</span></div>
+	<div class="operating">
+		<a href="javascript:void(0)"><button class="operating_btn" type="button" onclick='event_link("{url:/system/area_edit}")'><span class="addition">添加地区</span></button></a>
+	</div>
+	<div class="field">
+		<table class="list_table">
+			<col width="100px" />
+			<col width="50px" />
+			<col width="300px" />
+			<col />
+			<thead>
+				<tr>
+					<th>排序</th>
+					<th></th>
+					<th>地区名称</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+<div class="content">
+	<table class="list_table">
+		<col width="100px" />
+		<col width="50px" />
+		<col width="300px" />
+		<col />
+		<tbody>
+			{query:name=areas where=parent_id eq 0 order=sort asc}
+			<tr parent={$item['parent_id']}>
+				<td><input class="tiny" id="sort{$item['area_id']}" onblur="toSort({$item['area_id']});" size="2" type="text" value="{$item['sort']}" /></td>
+				<td></td>
+				<td class="switch" parent={$item['parent_id']}>
+					<img id="{$item['area_id']}" class="operator" src="{skin:images/admin/open.gif}" alt="展开" />
+					{$item['area_name']}
+				</td>
+				<td><a href="{url:/system/area_edit/aid/$item[area_id]/pid/$item[parent_id]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" /></a><a href="javascript:void(0)" onclick="area_del(this,'{$item['area_id']}')"><img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" /></a></td>
+			</tr>
+			{/query}
+		</tbody>
+	</table>
+</div>
+
+<script language="javascript">
+function toggle(obj_jq,indent)
+{
+	$(obj_jq).each(function(i) {
+		var obj_tr = $(this).parent().parent();
+		$(this).toggle(function(){
+			if (obj_tr.next("tr[grade='child']").length>0)
+			{
+				obj_tr.next("tr[grade='child']").toggle(true);
+			}else{
+				$.get("{url:/block/area_child/}",{aid:$(this).attr('id')},function(areas){
+					if (areas.length>0)
+					{
+						var html = '<tr grade="child"><td colspan="4" style="padding:0px;border:0px;height:auto;"><table width="100%"><col width="100px" /><col width="50px" /><col width="300px" /><col /><tbody>';
+
+						for (var i=0;i<areas.length ;i++ )
+						{
+							var addButton  = '{url:/system/area_edit/pid/@pid@}';
+							var addButton  = addButton.replace('@pid@',areas[i].area_id);
+
+							var editButton = '{url:/system/area_edit/aid/@aid@/pid/@pid@}';
+							var editButton = editButton.replace('@aid@',areas[i].area_id);
+							var editButton = editButton.replace('@pid@',areas[i].parent_id);
+							html += '<tr parent="'+areas[i].parent_id+'">'+
+									'	<td><input class="tiny" id="sort'+areas[i].area_id+'" onblur="toSort({$item['id']});" size="2" type="text" value="'+areas[i].sort+'" /></td><td></td>'+
+									'	<td style="padding-left:'+indent+'px;" class="switch" parent="'+areas[i].parent_id+'"><img id="'+areas[i].area_id+'" class="operator" src="{skin:images/admin/open.gif}" alt="展开" />'+
+									'	'+areas[i].area_name+'</td>'+
+									'	<td><a href="'+addButton+'"><img class="operator" src="{skin:images/admin/icon_add.gif}" alt="添加" /></a>'+
+									'		<a href="'+editButton+'"><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" /></a>'+
+									'		<a href="javascript:void(0)" onclick="area_del(this,'+areas[i].area_id+')"><img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" /></a>'+
+									'	</td>'+
+									'</tr>';
+						}
+						html += '</tbody></table></td></tr>';
+						obj_tr.after(html);
+						toggle(obj_tr.next("tr[grade='child']").find("td.switch .operator").get(),indent+pl);
+					}
+				},'json');
+			}
+			$(this).attr("src", "{skin:images/admin/close.gif}");
+		},function(){
+			obj_tr.next("tr[grade='child']").toggle(false);
+			$(this).attr("src", "{skin:images/admin/open.gif}");
+		});
+	});
+}
+//缩进像素
+pl=20;
+toggle($("td.switch .operator").get(),pl);
+function area_del(obj,aid)
+{
+	art.dialog({
+		title: '删除地区',
+		width:200,
+		height:80,
+		icon:'confirm',
+		content: '<br />是否删除此地区？',
+		ok:function(){
+			$.get("{url:/system/area_del/}",{'aid':aid},function(i){
+				if (i!='-1')
+				{
+					var tbody = $(obj).parent().parent().parent();
+					var tr_child = tbody.parent().parent().parent();
+					$(obj).parent().parent().remove();
+					if (tbody.children().length<1)
+					{
+						tr_child.remove();
+					}
+				}
+				else
+				{
+					alert('不能删除此分类，此分类下还存在子分类');
+				}
+			});
+			return true;
+		},
+		cancel: true
+	});
+}
+//排序
+function toSort(id)
+{
+	if(id!='')
+	{
+		var va = $('#sort'+id).val();
+		if(va!='' && va!=undefined)
+		{
+			$.get("{url:/system/area_sort}",{'id':id,'sort':va}, function(data)
+			{
+				if(data=='0')
+				{
+					alert('修改商品品牌排序错误!');
+				}
+			});
+		}
+	}
+}
+</script>

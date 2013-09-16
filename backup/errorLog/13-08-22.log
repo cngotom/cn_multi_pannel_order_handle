@@ -1,0 +1,119 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  use_time
+errFile:D:\projects\php\zunpingou\runtime\order\order_show.php
+errLine:112
+errTime:13-08-22 20:56:42
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\order\\order_show.php',
+  'data' => NULL,
+  'id' => '5',
+  'order_no' => '20130727122341319259',
+  'user_id' => '1',
+  'pay_type' => '5',
+  'distribution' => '1',
+  'status' => '1',
+  'pay_status' => '0',
+  'distribution_status' => '0',
+  'accept_name' => '爱的',
+  'postcode' => '',
+  'telphone' => '',
+  'country' => NULL,
+  'province' => '110000',
+  'city' => '110100',
+  'area' => '110116',
+  'address' => '啊实打实',
+  'mobile' => '18600439292',
+  'payable_amount' => '444.00',
+  'real_amount' => '444.00',
+  'payable_freight' => '5.00',
+  'real_freight' => '5.00',
+  'pay_time' => NULL,
+  'send_time' => NULL,
+  'create_time' => '2013-07-27 12:23:42',
+  'completion_time' => NULL,
+  'invoice' => '0',
+  'postscript' => '',
+  'note' => NULL,
+  'if_del' => '0',
+  'insured' => '0.00',
+  'if_insured' => '0',
+  'pay_fee' => '0.00',
+  'invoice_title' => '',
+  'taxes' => '0.00',
+  'promotions' => '0.00',
+  'discount' => '0.00',
+  'order_amount' => '449.00',
+  'if_print' => NULL,
+  'prop' => '',
+  'accept_time' => '任意',
+  'exp' => '0',
+  'point' => '0',
+  'type' => '0',
+  'order_id' => 5,
+  'delivery' => '天天快递北京',
+  'payment' => '支付宝',
+  'goods_amount' => 444,
+  'goods_weight' => 0,
+  'username' => 'guotao715',
+  'email' => 'guotao715@163.com',
+  'u_mobile' => NULL,
+  'contact_addr' => NULL,
+  'true_name' => NULL,
+  'area_addr' => '北京市&nbsp;市辖区&nbsp;怀柔区',
+  'volume_info' => 
+  array (
+  ),
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_order_goods as og',
+      'fields' => 'gg.name as gname,p.spec_array as spec,og.id as ogid,og.product_id,og.goods_price,og.real_price,og.goods_nums,og.real_price*og.goods_nums as total,og.goods_array',
+      'where' => 'where og.order_id = 5',
+      'join' => 'left join iwebshop_goods  as gg on og.goods_id = gg.id left join iwebshop_products  as p on p.id = og.product_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'gname' => NULL,
+      'spec' => NULL,
+      'ogid' => '6',
+      'product_id' => '4',
+      'goods_price' => '444.00',
+      'real_price' => '444.00',
+      'goods_nums' => '1',
+      'total' => '444.00',
+      'goods_array' => 'a:2:{s:4:"name";s:9:"新衣服";s:5:"value";s:129:"大小:5袋 , 颜色:<img src="/upload/2013/06/25/20130625102340151.jpg" class="img_border" style="width:15px;height:15px;" /> , ";}',
+    ),
+  ),
+  'item' => 
+  array (
+    'gname' => NULL,
+    'spec' => NULL,
+    'ogid' => '6',
+    'product_id' => '4',
+    'goods_price' => '444.00',
+    'real_price' => '444.00',
+    'goods_nums' => '1',
+    'total' => '444.00',
+    'goods_array' => 'a:2:{s:4:"name";s:9:"新衣服";s:5:"value";s:129:"大小:5袋 , 颜色:<img src="/upload/2013/06/25/20130625102340151.jpg" class="img_border" style="width:15px;height:15px;" /> , ";}',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>

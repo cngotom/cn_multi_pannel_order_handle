@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="{skin:css/volumes.css}" />
+
+
+<div class="position">
+        <h2>
+            <a href="{url:}">首页</a> &gt; <a href="{url:/simple/volumes/id/$id}" id="CtiyName">选礼中心</a>
+            &gt;
+           {$title}</h2>            
+    </div>
+
+<div class="main2">
+    <div class="detail">
+        <div class="bigImgArea">
+            <div class="clear" style="height:22px;"></div>
+              {set:
+                                $thumbs =  explode(',',$thumb);
+              }
+            <div class="Gift"><img src="{$thumbs[0]}"></div>
+            <div class="clear" style="height:15px;"></div></div>
+        <div class="property">
+            <div class="right"><div class="tit">
+                    <h2>{$title}</h2><a href="{url:/simple/festival}">更多礼册 &gt;&gt;</a></div>
+                <ul class="tb_meta">
+                    <li><span class="metatit">产品代码：</span><span class="primeCost">{$title}</span></li>
+                    <li class="dotLine" name="cd"><span>尊   豆：</span><span><strong class="productprice">{$price}</strong></span></li>
+                    <li class="dotLine" name="stock"><span>库    存：</span><span name="stock">充足</span></li>
+                    <li><span>支付方式：</span><span>尊豆支付</span></li>
+                    <li><span>全国销售热线：</span><span>400-181-365</span></li>
+                </ul>
+                <!--
+                <div class="tb_key" >
+                    <div class="action"><input type="hidden" value="10127" id="id"><a href="javascript:void(0)" class="buy">加入购物车</a><a class="stow" href="javascript:void(0)" onclick="AddFavorite(window.location.href,'2013中秋礼册赏月集-MZLL0011-热销礼册-满橙礼品商城 大礼包礼品册 商务送礼网 生日礼物 礼品公司')">收藏夹</a><div class="share"><div id="bdshare" class="bdshare_b" style="line-height: 12px;"><img src="http://share.baidu.com/static/images/type-button-1.jpg"><a class="shareCount" title="累计分享0次">0</a></div><script type="text/javascript" id="bdshare_js" data="type=button&amp;uid=194692" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=382275"></script><script type="text/javascript" defer="defer">                        document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?t=" + new Date().getHours();
+                </script></div>
+                    </div>
+                </div>-->
+            
+            </div>
+        </div>
+    </div>
+        <!--商品描述 end-->
+        <!--商品详情 start-->
+
+        <!--详情内容 start-->
+            <div class="description"><ul><li>账号登陆&nbsp;&nbsp;&nbsp;&nbsp;&gt;</li><li class="duihuan">自选兑换&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</li><li class="mages">填写配送信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</li><li class="qiansou">签收好礼</li></ul></div>
+</div>
+        <div class="Lst">
+             <ul >
+                 
+                        {foreach:items=$volumes_goods_info}
+                            {set:$id = $item['id'];
+                                 $gid = $item['gid'];
+                            }
+                        <li>
+                            <div class="pic">
+                                <a href="{url:/simple/gift_goods/id/$gid}">
+                                    <img class="lazy" src="{$item['limg']}" >
+                                </a>
+                            </div>
+                            <div class="explin" title=" {$item['gname']}"><a href="{url:/simple/gift_goods/id/$id}">{$item['gname']}</a></div></li>
+                        {/foreach}
+            </ul>
+            
+        </div>
+        
+        <!--详情内容 end-->
+        <!--商品详情 end-->

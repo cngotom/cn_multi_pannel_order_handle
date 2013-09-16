@@ -1,0 +1,1595 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: ojb_card
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1550
+errTime:13-08-06 19:20:07
+##出错时变量的值：##
+array (
+  'no' => '',
+  'password' => '123',
+  'captcha' => 'boaih',
+  'message' => '',
+  'obj_card' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => false,
+    )),
+     'tableName' => 'iwebshop_gift_card',
+     'tableData' => 
+    array (
+    ),
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  is_used
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1556
+errTime:13-08-06 19:28:59
+##出错时变量的值：##
+array (
+  'no' => '123123',
+  'password' => '123123',
+  'captcha' => 'eyiba',
+  'message' => '',
+  'obj_card' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_gift_card',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'card_info' => 
+  array (
+    0 => 
+    array (
+      'id' => '6',
+      'no' => '123123',
+      'password' => '601f1889667efaebb33b8c12572835da3f027f78',
+      'expire' => '12',
+      'is_used' => '0',
+      'create_time' => '1375788248',
+      'use_time' => NULL,
+      'message' => NULL,
+      'volume_id' => '1',
+    ),
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  is_used
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1556
+errTime:13-08-06 19:29:56
+##出错时变量的值：##
+array (
+  'no' => '123123',
+  'password' => '123123',
+  'captcha' => 'eyiba',
+  'message' => '',
+  'obj_card' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_gift_card',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'card_info' => 
+  array (
+    0 => 
+    array (
+      'id' => '6',
+      'no' => '123123',
+      'password' => '601f1889667efaebb33b8c12572835da3f027f78',
+      'expire' => '12',
+      'is_used' => '0',
+      'create_time' => '1375788248',
+      'use_time' => NULL,
+      'message' => NULL,
+      'volume_id' => '1',
+    ),
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  is_used
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1557
+errTime:13-08-06 19:30:43
+##出错时变量的值：##
+array (
+  'no' => '123123',
+  'password' => '123123',
+  'captcha' => 'eyiba',
+  'message' => '',
+  'obj_card' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_gift_card',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'card_info' => 
+  array (
+    0 => 
+    array (
+      'id' => '6',
+      'no' => '123123',
+      'password' => '601f1889667efaebb33b8c12572835da3f027f78',
+      'expire' => '12',
+      'is_used' => '0',
+      'create_time' => '1375788248',
+      'use_time' => NULL,
+      'message' => NULL,
+      'volume_id' => '1',
+    ),
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT * FROM iwebshop_volumes_goods WHERE volume_id =  limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:1595 	File:D:\projects\php\zunpingou\controllers\simple.php
+	Func:card_do_exchange	Class:Simple         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Invalid argument supplied for foreach()
+errFile:D:\projects\php\zunpingou\runtime\simple\exchange2.php
+errLine:274
+errTime:13-08-06 20:14:22
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\simple\\exchange2.php',
+  'data' => NULL,
+  'siteConfig' => 
+  Config::__set_state(array(
+     'configFile' => 'D:/projects/php/zunpingou/config/site_config.php',
+     'config' => 
+    array (
+      'email_type' => '1',
+      'mail_address' => '',
+      'smtp' => '',
+      'smtp_user' => '',
+      'smtp_pwd' => '',
+      'smtp_port' => '',
+      'order_by' => 'new',
+      'order_type' => 'asc',
+      'list_type' => 'win',
+      'list_num' => '9',
+      'auto_finish' => '1',
+      'index_slide' => 'a:4:{i:0;a:3:{s:4:"name";s:33:"新设计，新内核，新起点";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300491.png";}i:1;a:3:{s:4:"name";s:18:"开源电子商务";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300463.png";}i:2;a:3:{s:4:"name";s:27:"自由，易于二次开发";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300767.png";}i:3;a:3:{s:4:"name";s:21:"电子商务新起点";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300948.png";}}',
+      'list_thumb_width' => '175',
+      'list_thumb_height' => '175',
+      'show_thumb_width' => '100',
+      'show_thumb_height' => '100',
+      'name' => 'iwebshop',
+      'url' => 'http://www.jooyea.cn',
+      'master' => '',
+      'qq' => '',
+      'email' => '',
+      'mobile' => '',
+      'phone' => '',
+      'address' => '',
+      'site_footer_code' => '<div class="footer"><p class="links"><a href="">关于我们</a>|<a href="">常见问题</a>|<a href="">安全交易</a>|<a href="">购买流程</a>|<a href="">如何付款</a>|<a href="">联系我们</a>|<a href="">合作提案</a></p><p class="copyright">Powered by <a href="http://www.jooyea.cn">iWebShop v2.4</a></p>Copyright © 2005-2013 <a class="copyys" target="_blank" href="http://www.miibeian.gov.cn/">鲁ICP备01000010号</a></div>',
+      'tax' => '10',
+      'stockup_time' => '1',
+      'regiment_time_limit' => '60',
+      'index_seo_title' => '',
+      'index_seo_keywords' => '',
+      'index_seo_description' => '',
+      'goods_no_pre' => 'SD',
+    ),
+  )),
+  'user' => 
+  array (
+    'user_id' => false,
+    'username' => false,
+    'head_ico' => false,
+  ),
+  'callback' => '',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Invalid argument supplied for foreach()
+errFile:D:\projects\php\zunpingou\runtime\simple\exchange2.php
+errLine:398
+errTime:13-08-06 20:31:59
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\simple\\exchange2.php',
+  'data' => NULL,
+  'siteConfig' => 
+  Config::__set_state(array(
+     'configFile' => 'D:/projects/php/zunpingou/config/site_config.php',
+     'config' => 
+    array (
+      'email_type' => '1',
+      'mail_address' => '',
+      'smtp' => '',
+      'smtp_user' => '',
+      'smtp_pwd' => '',
+      'smtp_port' => '',
+      'order_by' => 'new',
+      'order_type' => 'asc',
+      'list_type' => 'win',
+      'list_num' => '9',
+      'auto_finish' => '1',
+      'index_slide' => 'a:4:{i:0;a:3:{s:4:"name";s:33:"新设计，新内核，新起点";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300491.png";}i:1;a:3:{s:4:"name";s:18:"开源电子商务";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300463.png";}i:2;a:3:{s:4:"name";s:27:"自由，易于二次开发";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300767.png";}i:3;a:3:{s:4:"name";s:21:"电子商务新起点";s:3:"url";s:20:"http://www.jooyea.cn";s:3:"img";s:39:"upload/2011/06/07/20110607105300948.png";}}',
+      'list_thumb_width' => '175',
+      'list_thumb_height' => '175',
+      'show_thumb_width' => '100',
+      'show_thumb_height' => '100',
+      'name' => 'iwebshop',
+      'url' => 'http://www.jooyea.cn',
+      'master' => '',
+      'qq' => '',
+      'email' => '',
+      'mobile' => '',
+      'phone' => '',
+      'address' => '',
+      'site_footer_code' => '<div class="footer"><p class="links"><a href="">关于我们</a>|<a href="">常见问题</a>|<a href="">安全交易</a>|<a href="">购买流程</a>|<a href="">如何付款</a>|<a href="">联系我们</a>|<a href="">合作提案</a></p><p class="copyright">Powered by <a href="http://www.jooyea.cn">iWebShop v2.4</a></p>Copyright © 2005-2013 <a class="copyys" target="_blank" href="http://www.miibeian.gov.cn/">鲁ICP备01000010号</a></div>',
+      'tax' => '10',
+      'stockup_time' => '1',
+      'regiment_time_limit' => '60',
+      'index_seo_title' => '',
+      'index_seo_keywords' => '',
+      'index_seo_description' => '',
+      'goods_no_pre' => 'SD',
+    ),
+  )),
+  'user' => 
+  array (
+    'user_id' => false,
+    'username' => false,
+    'head_ico' => false,
+  ),
+  'callback' => '',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Simple::$goodsList has no effect
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1595
+errTime:13-08-06 20:53:49
+##出错时变量的值：##
+array (
+  'volume_id' => '1',
+  'card_id' => '6',
+  'goods_id' => '2',
+  'goods_obj' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as g',
+      'fields' => 'g.small_img as small_img,g.id as id,vol.title as title ,g.name as name',
+      'where' => 'where g.id=2',
+      'join' => 'left join iwebshop_volumes  as vol on vol.id=1',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'goods_list' => 
+  array (
+    0 => 
+    array (
+      'small_img' => 'upload/2013/06/25/20130625102626851_100_100.jpg',
+      'id' => '2',
+      'title' => '中秋500礼卡',
+      'name' => '新衣服',
+    ),
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Simple::$goodsList has no effect
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1595
+errTime:13-08-06 20:53:50
+##出错时变量的值：##
+array (
+  'volume_id' => '1',
+  'card_id' => '6',
+  'goods_id' => '2',
+  'goods_obj' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as g',
+      'fields' => 'g.small_img as small_img,g.id as id,vol.title as title ,g.name as name',
+      'where' => 'where g.id=2',
+      'join' => 'left join iwebshop_volumes  as vol on vol.id=1',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'goods_list' => 
+  array (
+    0 => 
+    array (
+      'small_img' => 'upload/2013/06/25/20130625102626851_100_100.jpg',
+      'id' => '2',
+      'title' => '中秋500礼卡',
+      'name' => '新衣服',
+    ),
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Indirect modification of overloaded property Simple::$goodsList has no effect
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1595
+errTime:13-08-06 20:54:47
+##出错时变量的值：##
+array (
+  'volume_id' => '1',
+  'card_id' => '6',
+  'goods_id' => '2',
+  'goods_obj' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as g',
+      'fields' => 'g.small_img as small_img,g.id as id,vol.title as title ,g.name as name',
+      'where' => 'where g.id=2',
+      'join' => 'left join iwebshop_volumes  as vol on vol.id=1',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'goods_list' => 
+  array (
+    0 => 
+    array (
+      'small_img' => 'upload/2013/06/25/20130625102626851_100_100.jpg',
+      'id' => '2',
+      'title' => '中秋500礼卡',
+      'name' => '新衣服',
+    ),
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: payment
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1693
+errTime:13-08-06 22:35:56
+##出错时变量的值：##
+array (
+  'goods_id' => '2',
+  'volume_id' => '1',
+  'card_id' => '6',
+  'accept_name' => '郭涛',
+  'province' => 120000,
+  'city' => 120100,
+  'area' => 120101,
+  'address' => '西大直街',
+  'mobile' => '13654580246',
+  'telphone' => '',
+  'zip' => '',
+  'delivery_id' => 0,
+  'order_message' => '',
+  'order_no' => '20130806223556208984',
+  'order_type' => 3,
+  'dataArray' => 
+  array (
+  ),
+  'user_id' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: accept_time
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1704
+errTime:13-08-06 22:36:47
+##出错时变量的值：##
+array (
+  'goods_id' => '2',
+  'volume_id' => '1',
+  'card_id' => '6',
+  'accept_name' => '郭涛',
+  'province' => 430000,
+  'city' => 431300,
+  'area' => 431301,
+  'address' => '西大直街',
+  'mobile' => '13654580246',
+  'telphone' => '',
+  'zip' => '',
+  'delivery_id' => 0,
+  'order_message' => '',
+  'order_no' => '20130806223647791699',
+  'order_type' => 3,
+  'dataArray' => 
+  array (
+  ),
+  'user_id' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goodsResult
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1711
+errTime:13-08-06 22:38:03
+##出错时变量的值：##
+array (
+  'goods_id' => '2',
+  'volume_id' => '1',
+  'card_id' => '6',
+  'accept_name' => '郭涛',
+  'province' => 110000,
+  'city' => 110100,
+  'area' => 110101,
+  'address' => '西大直街',
+  'mobile' => '13654580246',
+  'telphone' => '',
+  'zip' => '',
+  'delivery_id' => 0,
+  'order_message' => '',
+  'order_no' => '20130806223803684280',
+  'order_type' => 3,
+  'dataArray' => 
+  array (
+  ),
+  'user_id' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: payment
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1763
+errTime:13-08-06 22:38:50
+##出错时变量的值：##
+array (
+  'goods_id' => '2',
+  'volume_id' => '1',
+  'card_id' => '6',
+  'accept_name' => '郭涛',
+  'province' => 110000,
+  'city' => 110100,
+  'area' => 110115,
+  'address' => '西大直街',
+  'mobile' => '13654580246',
+  'telphone' => '',
+  'zip' => '',
+  'delivery_id' => 0,
+  'order_message' => '',
+  'order_no' => '20130806223850436566',
+  'order_type' => 3,
+  'dataArray' => 
+  array (
+    'order_no' => '20130806223850436566',
+    'user_id' => 0,
+    'accept_name' => '郭涛',
+    'pay_type' => 0,
+    'distribution' => 0,
+    'postcode' => '',
+    'telphone' => '',
+    'province' => 110000,
+    'city' => 110100,
+    'area' => 110115,
+    'address' => '西大直街',
+    'mobile' => '13654580246',
+    'create_time' => '2013-08-06 22:38:50',
+    'postscript' => '',
+    'accept_time' => '',
+    'exp' => 0,
+    'point' => 0,
+    'type' => 3,
+    'prop' => NULL,
+    'payable_amount' => 0,
+    'real_amount' => 0,
+    'payable_freight' => 0,
+    'real_freight' => 0,
+    'pay_fee' => 0,
+    'invoice' => 0,
+    'invoice_title' => '',
+    'taxes' => 0,
+    'promotions' => 0,
+    'order_amount' => 0,
+    'if_insured' => 0,
+    'insured' => 0,
+  ),
+  'user_id' => 0,
+  'orderObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order',
+     'tableData' => 
+    array (
+      'order_no' => '20130806223850436566',
+      'user_id' => 0,
+      'accept_name' => '郭涛',
+      'pay_type' => 0,
+      'distribution' => 0,
+      'postcode' => '',
+      'telphone' => '',
+      'province' => 110000,
+      'city' => 110100,
+      'area' => 110115,
+      'address' => '西大直街',
+      'mobile' => '13654580246',
+      'create_time' => '2013-08-06 22:38:50',
+      'postscript' => '',
+      'accept_time' => '',
+      'exp' => 0,
+      'point' => 0,
+      'type' => 3,
+      'prop' => NULL,
+      'payable_amount' => 0,
+      'real_amount' => 0,
+      'payable_freight' => 0,
+      'real_freight' => 0,
+      'pay_fee' => 0,
+      'invoice' => 0,
+      'invoice_title' => '',
+      'taxes' => 0,
+      'promotions' => 0,
+      'order_amount' => 0,
+      'if_insured' => 0,
+      'insured' => 0,
+    ),
+  )),
+  'orderInstance' => 
+  Order_Class::__set_state(array(
+  )),
+  'goodsResult' => 
+  array (
+    'goodsList' => 
+    array (
+      'goods_id' => '2',
+      'goods_price' => 0,
+      'real_price' => 0,
+      'goods_weight' => 0,
+    ),
+  ),
+  'memberObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_member',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'memberRow' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: order_id
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1788
+errTime:13-08-06 22:39:39
+##出错时变量的值：##
+array (
+  'goods_id' => '2',
+  'volume_id' => '1',
+  'card_id' => '6',
+  'accept_name' => '郭涛',
+  'province' => 110000,
+  'city' => 110200,
+  'area' => 110228,
+  'address' => '西大直街',
+  'mobile' => '13654580246',
+  'telphone' => '',
+  'zip' => '',
+  'delivery_id' => 0,
+  'order_message' => '',
+  'order_no' => '20130806223939477902',
+  'order_type' => 3,
+  'dataArray' => 
+  array (
+    'order_no' => '20130806223939477902',
+    'user_id' => 0,
+    'accept_name' => '郭涛',
+    'pay_type' => 0,
+    'distribution' => 0,
+    'postcode' => '',
+    'telphone' => '',
+    'province' => 110000,
+    'city' => 110200,
+    'area' => 110228,
+    'address' => '西大直街',
+    'mobile' => '13654580246',
+    'create_time' => '2013-08-06 22:39:39',
+    'postscript' => '',
+    'accept_time' => '',
+    'exp' => 0,
+    'point' => 0,
+    'type' => 3,
+    'prop' => NULL,
+    'payable_amount' => 0,
+    'real_amount' => 0,
+    'payable_freight' => 0,
+    'real_freight' => 0,
+    'pay_fee' => 0,
+    'invoice' => 0,
+    'invoice_title' => '',
+    'taxes' => 0,
+    'promotions' => 0,
+    'order_amount' => 0,
+    'if_insured' => 0,
+    'insured' => 0,
+  ),
+  'user_id' => 0,
+  'orderObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order',
+     'tableData' => 
+    array (
+      'order_no' => '20130806223939477902',
+      'user_id' => 0,
+      'accept_name' => '郭涛',
+      'pay_type' => 0,
+      'distribution' => 0,
+      'postcode' => '',
+      'telphone' => '',
+      'province' => 110000,
+      'city' => 110200,
+      'area' => 110228,
+      'address' => '西大直街',
+      'mobile' => '13654580246',
+      'create_time' => '2013-08-06 22:39:39',
+      'postscript' => '',
+      'accept_time' => '',
+      'exp' => 0,
+      'point' => 0,
+      'type' => 3,
+      'prop' => NULL,
+      'payable_amount' => 0,
+      'real_amount' => 0,
+      'payable_freight' => 0,
+      'real_freight' => 0,
+      'pay_fee' => 0,
+      'invoice' => 0,
+      'invoice_title' => '',
+      'taxes' => 0,
+      'promotions' => 0,
+      'order_amount' => 0,
+      'if_insured' => 0,
+      'insured' => 0,
+    ),
+  )),
+  'orderInstance' => 
+  Order_Class::__set_state(array(
+  )),
+  'goodsResult' => 
+  array (
+    'goodsList' => 
+    array (
+      'goods_id' => '2',
+      'goods_price' => 0,
+      'real_price' => 0,
+      'goods_weight' => 0,
+    ),
+  ),
+  'obj_gift_card' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_gift_card',
+     'tableData' => 
+    array (
+    ),
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:41:14
+##出错时变量的值：##
+array (
+  'order_id' => '8',
+  'type' => 'reduce',
+  'newStoreNums' => 395,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+      'store_nums' => 395,
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 1,
+  'goodsRow' => 
+  array (
+  ),
+  'localStoreNums' => '397',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:45:10
+##出错时变量的值：##
+array (
+  'order_id' => '9',
+  'type' => 'reduce',
+  'newStoreNums' => 393,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+      'store_nums' => 393,
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 1,
+  'goodsRow' => 
+  array (
+  ),
+  'localStoreNums' => '395',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:48:00
+##出错时变量的值：##
+array (
+  'order_id' => '10',
+  'type' => 'reduce',
+  'newStoreNums' => 0,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 0,
+  'goodsRow' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:48:06
+##出错时变量的值：##
+array (
+  'order_id' => '11',
+  'type' => 'reduce',
+  'newStoreNums' => 391,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+      'store_nums' => 391,
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 1,
+  'goodsRow' => 
+  array (
+  ),
+  'localStoreNums' => '393',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:48:52
+##出错时变量的值：##
+array (
+  'order_id' => '12',
+  'type' => 'reduce',
+  'newStoreNums' => 389,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+      'store_nums' => 389,
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 1,
+  'goodsRow' => 
+  array (
+  ),
+  'localStoreNums' => '391',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:51:24
+##出错时变量的值：##
+array (
+  'order_id' => '13',
+  'type' => 'reduce',
+  'newStoreNums' => 387,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+      'store_nums' => 387,
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 1,
+  'goodsRow' => 
+  array (
+  ),
+  'localStoreNums' => '389',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  store_nums
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:549
+errTime:13-08-06 22:52:08
+##出错时变量的值：##
+array (
+  'order_id' => '14',
+  'type' => 'reduce',
+  'newStoreNums' => 385,
+  'updateGoodsId' => 
+  array (
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_goods',
+     'tableData' => 
+    array (
+      'store_nums' => 385,
+    ),
+  )),
+  'productObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_products',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsList' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '2',
+      'product_id' => '0',
+      'goods_nums' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    2 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+    3 => 
+    array (
+      'goods_id' => '0',
+      'product_id' => '0',
+      'goods_nums' => '0',
+    ),
+  ),
+  'val' => 
+  array (
+    'goods_id' => '0',
+    'product_id' => '0',
+    'goods_nums' => '0',
+  ),
+  'key' => 1,
+  'goodsRow' => 
+  array (
+  ),
+  'localStoreNums' => '387',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  name
+errFile:D:\projects\php\zunpingou\classes\order_class.php
+errLine:312
+errTime:13-08-06 22:54:19
+##出错时变量的值：##
+array (
+  'order_id' => 15,
+  'goodsResult' => 
+  array (
+    'goodsList' => 
+    array (
+      0 => 
+      array (
+        'goods_id' => '2',
+        'goods_price' => 0,
+        'real_price' => 0,
+        'goods_weight' => 0,
+      ),
+    ),
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsArray' => 
+  array (
+    'order_id' => 15,
+  ),
+  'findType' => 
+  array (
+    'goods' => 'goodsList',
+    'product' => 'productList',
+  ),
+  'list' => 'goodsList',
+  'key' => 'goods',
+  'val' => 
+  array (
+    'goods_id' => '2',
+    'goods_price' => 0,
+    'real_price' => 0,
+    'goods_weight' => 0,
+  ),
+  'k' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  name
+errFile:D:\projects\php\zunpingou\classes\order_class.php
+errLine:312
+errTime:13-08-06 22:55:51
+##出错时变量的值：##
+array (
+  'order_id' => 16,
+  'goodsResult' => 
+  array (
+    'goodsList' => 
+    array (
+      0 => 
+      array (
+        'goods_id' => '2',
+        'goods_price' => 0,
+        'real_price' => 0,
+        'goods_weight' => 0,
+      ),
+    ),
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsArray' => 
+  array (
+    'order_id' => 16,
+  ),
+  'findType' => 
+  array (
+    'goods' => 'goodsList',
+    'product' => 'productList',
+  ),
+  'list' => 'goodsList',
+  'key' => 'goods',
+  'val' => 
+  array (
+    'goods_id' => '2',
+    'goods_price' => 0,
+    'real_price' => 0,
+    'goods_weight' => 0,
+  ),
+  'k' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  id
+errFile:D:\projects\php\zunpingou\classes\order_class.php
+errLine:326
+errTime:13-08-06 22:59:58
+##出错时变量的值：##
+array (
+  'order_id' => 17,
+  'goodsResult' => 
+  array (
+    'goodsList' => 
+    array (
+      0 => 
+      array (
+        'goods_id' => '2',
+        'goods_price' => 0,
+        'real_price' => 0,
+        'goods_weight' => 0,
+        'name' => '新衣服',
+      ),
+    ),
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsArray' => 
+  array (
+    'order_id' => 17,
+  ),
+  'findType' => 
+  array (
+    'goods' => 'goodsList',
+    'product' => 'productList',
+  ),
+  'list' => 'goodsList',
+  'key' => 'goods',
+  'val' => 
+  array (
+    'goods_id' => '2',
+    'goods_price' => 0,
+    'real_price' => 0,
+    'goods_weight' => 0,
+    'name' => '新衣服',
+  ),
+  'k' => 0,
+  'specArray' => 
+  array (
+    'name' => '新衣服',
+    'value' => '',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  id
+errFile:D:\projects\php\zunpingou\classes\order_class.php
+errLine:326
+errTime:13-08-06 23:00:04
+##出错时变量的值：##
+array (
+  'order_id' => 18,
+  'goodsResult' => 
+  array (
+    'goodsList' => 
+    array (
+      0 => 
+      array (
+        'goods_id' => '2',
+        'goods_price' => 0,
+        'real_price' => 0,
+        'goods_weight' => 0,
+        'name' => '新衣服',
+      ),
+    ),
+  ),
+  'orderGoodsObj' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_order_goods',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'goodsArray' => 
+  array (
+    'order_id' => 18,
+  ),
+  'findType' => 
+  array (
+    'goods' => 'goodsList',
+    'product' => 'productList',
+  ),
+  'list' => 'goodsList',
+  'key' => 'goods',
+  'val' => 
+  array (
+    'goods_id' => '2',
+    'goods_price' => 0,
+    'real_price' => 0,
+    'goods_weight' => 0,
+    'name' => '新衣服',
+  ),
+  'k' => 0,
+  'specArray' => 
+  array (
+    'name' => '新衣服',
+    'value' => '',
+  ),
+)
+<\ERROR_INFO>

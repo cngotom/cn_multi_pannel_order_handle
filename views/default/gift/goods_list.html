@@ -1,0 +1,187 @@
+<div class="headbar">
+	<div class="position"><span>商品</span><span>></span><span>商品管理</span><span>></span><span>商品列表</span></div>
+	<div class="operating">
+		<div class="search f_r">
+			<form name="serachuser" action="{url:/}" method="get">
+			<input type='hidden' name='controller' value='goods' />
+			<input type='hidden' name='action' value='goods_list' />
+			<select class="auto" name="search">
+				<option value="goods.name" {if:$search=='goods.name'}selected{/if}>商品名</option>
+				<option value="c.name" {if:$search=='c.name'}selected{/if}>分类</option>
+			</select>
+			<input class="small" name="keywords" type="text" value="{$keywords}" /><button class="btn" type="submit"><span class="sch">搜 索</span></button>
+			</form>
+		</div>
+		<a href="javascript:;"><button class="operating_btn" type="button" onclick="window.location='{url:/goods/goods_edit}'"><span class="addition">添加商品</span></button></a>
+		<a href="javascript:void(0)" onclick="selectAll('id[]')"><button class="operating_btn" type="button"><span class="sel_all">全选</span></button></a>
+		<a href="javascript:void(0)" onclick="goods_del()"><button class="operating_btn" type="button"><span class="delete">批量删除</span></button></a>
+		<a href="javascript:void(0)" onclick="goods_stats('up')"><button class="operating_btn" type="button"><span class="import">批量上架</span></button></a>
+		<a href="javascript:void(0)" onclick="goods_stats('down')"><button class="operating_btn" type="button"><span class="export">批量下架</span></button></a>
+		<a href="javascript:void(0)"><button class="operating_btn" type="button" onclick="location.href='{url:/goods/goods_recycle_list}'"><span class="recycle">回收站</span></button></a>
+	</div>
+	<div class="searchbar">
+		<form action="{url:/}" method="get" name="goods_list">
+			<input type='hidden' name='controller' value='goods' />
+			<input type='hidden' name='action' value='goods_list' />
+			<select class="auto" name="category_id">
+				<option value="">选择分类</option>
+				{query:name=category}
+				<option value="{$item['id']}" {if:$category_id==$item['id']}selected{/if}>{$item['name']}</option>
+				{/query}
+			</select>
+			<select class="auto" name="added" style="width:95px">
+				<option value="">选择上下架</option>
+				<option value="0" {if:$added=='0'}selected{/if}>上架</option>
+				<option value="1" {if:$added=='1'}selected{/if}>下架</option>
+			</select>
+			<select class="auto" name="store_nums">
+				<option value="">选择库存</option>
+				<option value="1" {if:$store_nums=='1'}selected{/if}>缺货</option>
+				<option value="10" {if:$store_nums=='10'}selected{/if}>低于10</option>
+				<option value="100" {if:$store_nums=='100'}selected{/if}>10-100</option>
+				<option value="101" {if:$store_nums=='101'}selected{/if}>100以上</option>
+			</select>
+			<select class="auto" name="commend">
+				<option value="">选择商品标签</option>
+				<option value="1" {if:$commend=='1'}selected{/if}>最新商品</option>
+				<option value="2" {if:$commend=='2'}selected{/if}>特价商品</option>
+				<option value="3" {if:$commend=='3'}selected{/if}>热卖商品</option>
+				<option value="4" {if:$commend=='4'}selected{/if}>推荐商品</option>
+			</select>
+			<button class="btn" type="submit"><span class="sel">筛 选</span></button>
+		</form>
+	</div>
+	<div class="field">
+		<table class="list_table">
+			<col width="40px" />
+			<col />
+			<col width="100px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="80px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<thead>
+				<tr role="head" class="flush_left th_c">
+					<th>选择</th>
+					<th>商品名称</th>
+					<th>分类</th>
+					<th>销售价</th>
+					<th>库存</th>
+					<th>上架</th>
+					<th>市场价</th>
+					<th>品牌</th>
+					<th>重量</th>
+					<th>排序</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+<form action="" method="post" name="orderForm">
+	<div class="content">
+		<table class="list_table">
+			<col width="40px" />
+			<col />
+			<col width="100px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="80px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<tbody>
+				{set:$page= (isset($_GET['page'])&&(intval($_GET['page'])>0))?intval($_GET['page']):1;}
+				{query: name=goods as goods join=left join brand as brand on goods.brand_id eq brand.id $left_join distinct=goods.id fields=goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del where=$where and (is_del eq 0 or is_del eq 2) order=goods.sort asc,goods.id desc page=$page id=$goods_list}
+				<tr class="flush_left td_c">
+					<td><input name="id[]" type="checkbox" value="{$item['id']}" /></td>
+					<td><a href="{url:/site/products/id/$item[id]}" target="_blank" title="{$item['name']}">{$item['name']}</a></td>
+					<td>
+					{set:$cate= '';}
+					{query:name=category_extend as ce join=left join category as cd on cd.id eq ce.category_id fields=cd.name where=goods_id eq $item[id] item=$va}
+						{set:$cate .= $va['name'].'|'}
+					{/query}
+					{if:$cate}{echo: substr($cate,0,-1)}{/if}
+					</td>
+					<td>{$item['sell_price']}</td>
+					<td>{$item['store_nums']}</td>
+					<td>{echo:$item['is_del']==0?'是':'否'}</td>
+					<td>{$item['market_price']}</td>
+					<td>{$item['brand_name']}</td>
+					<td>{$item['weight']}</td>
+					<td><input type="text" class="tiny" id="s{$item['id']}" value="{$item['sort']}" onblur="toSort({$item['id']});" size="5"/></td>
+					<td>
+						<a href="{url:/goods/goods_edit/id/$item[id]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="编辑" /></a>
+						<a href="javascript:void(0)" onclick="delModel({link:'{url:/goods/goods_del/id/$item[id]}'})" ><img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" /></a>
+					</td>
+				</tr>
+				{/query}
+			</tbody>
+		</table>
+	</div>
+</form>
+
+{$goods_list->getPageBar()}
+
+<script type="text/javascript">
+//排序
+function toSort(id)
+{
+	if(id!='')
+	{
+		var va = $('#s'+id).val();
+		var part = /^\d+$/i;
+		if(va!='' && va!=undefined && part.test(va))
+		{
+			$.get("{url:/goods/goods_sort}",{'id':id,'sort':va}, function(data)
+			{
+				if(data=='1')
+				{
+					alert('修改商品排序成功!');
+				}else
+				{
+					alert('修改商品排序错误!');
+				}
+			});
+		}
+	}
+}
+function goods_del()
+{
+	var flag = 0;
+	$('input:checkbox[name="id[]"]:checked').each(
+		function(i)
+		{
+			flag = 1;
+		}
+	);
+	if(flag == 0 )
+	{
+		alert('请选择要删除的数据');
+		return false;
+	}
+	$("form[name='orderForm']").attr('action','{url:/goods/goods_del}');
+	confirm('确定要删除所选中的信息吗？','formSubmit(\'orderForm\')');
+}
+//上下架操作
+function goods_stats(type)
+{
+	if($('input:checkbox[name="id[]"]:checked').length > 0)
+	{
+		$("form[name='orderForm']").attr('action','{url:/goods/goods_stats/type/}'+type);
+		confirm('确定将选中的商品进行操作吗？',"formSubmit('orderForm')");
+	}
+	else
+	{
+		alert('请选择要操作的商品!');
+		return false;
+	}
+}
+</script>

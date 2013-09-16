@@ -1,0 +1,71 @@
+{set:$seo_data=array();$site_config=new Config('site_config');}
+{set:$seo_data['title']=$this->help_row['name'].'_'.$site_config->name;}
+{set:seo::set($seo_data);}
+
+{set:$cat_id=$this->cat_row['id'];}
+<link rel="stylesheet" href="{skin:css/help_center.css}" />
+
+
+        <!--位置 star-->
+        <div class="theme">
+            <img src="{skin:images/index/gif_08.jpg}">您所在的位置： <a href="{url:}"> 首页</a> &gt; <a href="{url:/site/help_list/id/$cat_id}">{$this->cat_row['name']}</a>
+        </div>
+        <!--位置 end-->
+        <div class="gift_theme">
+            <!--帮助中心左边 star-->
+            <div class="giftboos_left">
+            <div class="gL_up">
+                    <img src="{skin:images/index/help_L_top.jpg}"></div>
+                <div class="gL_middle">
+                {query:name=help_category where=position_left eq 1 order=sort asc,id desc}
+                <dl><dt>{$item['name']}</dt> 
+			{query:name=help where=cat_id eq $item[id] order=sort desc,id desc item=$help_row}
+                         <dd><a href="{url:/site/help/id/$help_row[id]/}" title="{$help_row['name']}">{$help_row['name']}</a></dd>
+			{/query}
+		</dl>
+		{/query}
+            </div>
+                <div class="gL_down">
+                    <img src="{skin:images/index/gift_L_bottom.jpg}"></div>
+        </div>
+            <!--帮助中心左边 end-->
+            <!--帮助中心右边边 star-->
+            <div class="giftbooks_right">
+                <div class="giftbooks_banner">
+                    
+                    
+                    </div>
+                <div class="gb_Rcontent_up">
+                    <img src="{skin:images/index/rbox_top.jpg}"></div>
+                <div class="gb_Rcontent_middle">
+                  {$this->help_row['content']}
+                    
+                </div>
+                <div class="gb_Rcontent_down">
+                    <img src="{skin:images/index/rbox_bottom.jpg}"></div>
+            </div>
+            <!--帮助中心右边边 end-->
+        </div>
+        <!--位置 end--> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

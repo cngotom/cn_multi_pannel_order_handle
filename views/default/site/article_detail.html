@@ -1,0 +1,68 @@
+{set:
+	$seo_data=array();
+	$site_config=new Config('site_config');
+	$seo_data['title']=$this->articleRow['title'];
+	$seo_data['title'].="_".$site_config->name;
+	$seo_data['keywords']=$this->articleRow['keywords'];
+	$seo_data['description']=$this->articleRow['description'];
+	seo::set($seo_data);
+}
+<link rel="stylesheet" href="{skin:css/media.css}" />
+
+<div class="position"> <span>您当前的位置：</span> <a href="{url:}"> 首页</a> » 商城资讯 </div>
+
+
+
+        <div class="gift_theme">
+            <!--帮助中心左边 star-->
+            <div class="giftboos_left">
+            <div class="gL_up">
+                    <img src="{skin:images/index/news_L_top.jpg}"></div>
+                <div class="gL_middle">
+                    
+                    <ul class="Title">
+                        
+                        {query:name=article where=visiblity eq 1 and top eq 1 and category_id eq 1 order=sort ASC,id DESC fields=title,id,style,color limit=6}
+                            {set:$tmpId=$item['id'];}
+                            <li><a href="{url:/site/article_detail/id/$tmpId}">{echo:Article::showTitle($item['title'],$item['color'],$item['style'])}</a></li>
+                        {/query}
+                    </ul>
+              
+            </div>
+                <div class="gL_down">
+                    <img src="{skin:images/index/gift_L_bottom.jpg}"></div>
+        </div>
+            <!--帮助中心左边 end-->
+            <!--帮助中心右边边 star-->
+            <div class="giftbooks_right">
+                <div class="giftbooks_banner">
+                    
+                    
+                    </div>
+                <div class="gb_Rcontent_up">
+                    <img src="{skin:images/index/rbox_top.jpg}"></div>
+                <div class="gb_Rcontent_middle">
+                           <h3 class="news_tit">
+                        <span id="lblTitle">{$this->articleRow['title']}</span></h3>
+                    <p class="date">
+                        发布日期：<span><span id="lblEditTime">{$this->articleRow['create_time']}</span></span></p>
+                  {$this->articleRow['content']}
+                    
+                </div>
+                <div class="gb_Rcontent_down">
+                    <img src="{skin:images/index/rbox_bottom.jpg}"></div>
+            </div>
+            <!--帮助中心右边边 end-->
+        </div>
+        <!--位置 end--> 
+    </div>
+
+
+
+
+
+    
+    
+    
+
+

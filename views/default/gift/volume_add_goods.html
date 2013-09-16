@@ -1,0 +1,129 @@
+<div class="headbar">
+	<div class="position"><span>商品</span><span>></span><span>礼卡</span><span>></span><span>礼册</span></div>
+	<div class="operating">
+		
+		<a href="javascript:;"><button class="operating_btn" type="button" onclick="window.location='{url:/gift/volume_edit}'"><span class="addition">添加礼册</span></button></a>
+		<a href="javascript:void(0)" onclick="selectAll('id[]')"><button class="operating_btn" type="button"><span class="sel_all">全选</span></button></a>
+	</div>
+	
+	<div class="field">
+		<table class="list_table">
+			<col width="40px" />
+			<col />
+			<col width="100px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="80px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<thead>
+				<tr role="head" class="flush_left th_c">
+					<th>选择</th>
+					<th>礼册名称</th>
+					<th>礼册价格</th>
+					<th>创建时间</th>
+					<th>商品数量</th>
+					<th>礼卡数量</th>
+					<th>节日名称</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+<form action="" method="post" name="orderForm">
+	<div class="content">
+		<table class="list_table">
+			<col width="40px" />
+			<col />
+			<col width="100px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="80px" />
+			<col width="70px" />
+			<col width="70px" />
+			<col width="70px" />
+			<tbody>
+			          {set:$page= (isset($_GET['page'])&&(intval($_GET['page'])>0))?intval($_GET['page']):1;}
+                                                        {query: name=volumes as volumes  join=left join festival as festival on festival.id eq volumes.festival_id  distinct=volumes.id fields=volumes.id,volumes.title as v_title,volumes.price, volumes.create_time, festival.title as f_title page=$page id=$volumes_list}
+				<tr class="flush_left td_c">
+					<td><input name="id[]" type="checkbox" value="{$item['id']}" /></td>
+					<td><a href="{url:/site/volumes/id/$item[id]}" target="_blank" title="{$item['name']}">{$item['v_title']}</a></td>
+					<td>{$item['price']}</td>
+					<td>{set: echo date('Y-m-d H:i:s', $item['create_time'] );   }</td>
+					<td>0</td>
+                                                                        <td>0</td>
+                                                                        <td>{$item['f_title']}</td>
+					<td>
+						<a href="{url:/gift/volume_edit/id/$item[id]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="编辑" /></a>
+					</td>
+				</tr>
+				{/query}
+			</tbody>
+		</table>
+	</div>
+</form>
+
+{$volumes_list->getPageBar()}
+
+<script type="text/javascript">
+//排序
+function toSort(id)
+{
+	if(id!='')
+	{
+		var va = $('#s'+id).val();
+		var part = /^\d+$/i;
+		if(va!='' && va!=undefined && part.test(va))
+		{
+			$.get("{url:/gift/gift_sort}",{'id':id,'sort':va}, function(data)
+			{
+				if(data=='1')
+				{
+					alert('修改商品排序成功!');
+				}else
+				{
+					alert('修改商品排序错误!');
+				}
+			});
+		}
+	}
+}
+function gift_del()
+{
+	var flag = 0;
+	$('input:checkbox[name="id[]"]:checked').each(
+		function(i)
+		{
+			flag = 1;
+		}
+	);
+	if(flag == 0 )
+	{
+		alert('请选择要删除的数据');
+		return false;
+	}
+	$("form[name='orderForm']").attr('action','{url:/gift/gift_del}');
+	confirm('确定要删除所选中的信息吗？','formSubmit(\'orderForm\')');
+}
+//上下架操作
+function gift_stats(type)
+{
+	if($('input:checkbox[name="id[]"]:checked').length > 0)
+	{
+		$("form[name='orderForm']").attr('action','{url:/gift/gift_stats/type/}'+type);
+		confirm('确定将选中的商品进行操作吗？',"formSubmit('orderForm')");
+	}
+	else
+	{
+		alert('请选择要操作的商品!');
+		return false;
+	}
+}
+</script>

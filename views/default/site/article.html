@@ -1,0 +1,43 @@
+<div class="position"> <span>您当前的位置：</span> <a href="{url:}"> 首页</a> » 商城咨询 </div>
+<div class="wrapper clearfix container_2">
+	<div class="sidebar f_l">
+		<div class="box m_10">
+			<div class="title">热卖商品</div>
+			<div class="content">
+			  <ul class="ranklist">
+				{query:name=commend_goods as commend join = left JOIN goods as go on go.id eq commend.goods_id
+					where  = commend_id eq 3 AND go.is_del eq 0 and go.id is not null
+					fields = go.id,go.list_img,go.name,go.sell_price
+					limit  = 5
+				}
+				{set:$tmpId =$item['id'];}
+				<li class='current'><a href="{url:/site/products/id/$tmpId}"><img src="{webroot:}{$item['list_img']}" width="58" height="58" alt="{$item['name']}" /></a><a title="{$item['name']}" class="p_name" href="{url:/site/products/id/$item[id]}">{$item['name']}</a><b>￥{$item['sell_price']}</b></li>
+				{/query}
+			  </ul>
+			</div>
+		</div>
+	</div>
+	<div class="main f_r">
+		<div class="box m_10">
+			<div class="title2"> 商城资讯 </div>
+			<div class="cont">
+				<h5 class="list_title gray"><span class="f_l">标题</span>发表时间</li></h5>
+				<ul class="newslist">
+					{set:$page= isset($_GET['page'])?intval($_GET['page']):1;
+                                             $cate_id = isset($_GET['id'])?intval($_GET['id']):0;
+                                             $where = 'visiblity=1';
+                                             if($cate_id != 0)
+                                                $where .= " and category_id=$cate_id "; 
+                                             }
+					{query:name=article where=$where order=id desc id=$article page=$page}
+					<li><a class="" href="{url:/site/article_detail/id/$item[id]}">{$item['title']}</a><span>({$item['create_time']})</span></li>
+					{/query}
+				</ul>
+
+				<div class="pages_bar">
+					{$article->getPageBar()}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

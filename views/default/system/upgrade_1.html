@@ -1,0 +1,24 @@
+{if:$this->version}
+{set:$version = $this->version['version'];}
+<div class="content">
+	<div class="upgrade_box">
+		<div class="gray_title"><img src="{skin:images/admin/error.gif}" />重要：升级前，请 <a class="blue">备份您的数据库和文件</a> 要获取关于升级的帮助</div>
+		<div class="cont">
+			<h3>有一个新的<b class="orange">iwebshop</b>版本可供升级</h3>
+			<p class="f14">您可以选择自动升级到 <a class="blue" href="javascript:void(0);">IWEBSHOP {$this->version['version']}</a> 版本或者下载安装包手动安装：</p>
+			<label class="org_shadow_btn"><a href="{url:/system/upgrade_2/version/$version}">自动升级</a></label><label class="org_shadow_btn"><a href="{$this->version['download_url']}"><span class="download">下载IWEBSHOP{$this->version['version']}</span></a></label>
+
+		</div>
+	</div>
+</div>
+
+{else:}
+<div class="content">
+	<div class="upgrade_box">
+		<div class="gray_title"><img src="{skin:images/admin/error.gif}" />无法进行在线升级</div>
+		<div class="cont">
+			<h3>{$this->msg}</h3>
+		</div>
+	</div>
+</div>
+{/if}

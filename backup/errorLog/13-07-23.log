@@ -1,0 +1,1266 @@
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\site\test.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:64
+errTime:13-07-23 18:45:32
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\test',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\test.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\site\\test.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\inner.html',
+  'layoutChanged' => false,
+  'layoutHierarchy' => 
+  array (
+    0 => 'inner',
+    1 => 'outer',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for E:/Projects/php/zunpingou/runtime\site\test.php
+errFile:IWEB_PATH/web\controller\controllerbase_class.php
+errLine:64
+errTime:13-07-23 18:45:32
+##出错时变量的值：##
+array (
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\test',
+  'rdata' => NULL,
+  'renderFile' => 'E:/Projects/php/zunpingou/views\\default\\site\\test.html',
+  'runtimeFile' => 'E:/Projects/php/zunpingou/runtime\\site\\test.php',
+  'layoutFile' => 'E:/Projects/php/zunpingou/views\\default\\layouts\\outer.html',
+  'layoutChanged' => true,
+  'layoutHierarchy' => 
+  array (
+    0 => 'inner',
+    1 => 'outer',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:45:32
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:45:32
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:03
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:03
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:03
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:03
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:03
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:03
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:13
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:13
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:13
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:13
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:14
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:14
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:14
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:14
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:22
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:22
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:23
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:23
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:23
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:23
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:27
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:27
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:28
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:28
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:29
+errTime:13-07-23 18:47:28
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: content
+errFile:IWEB_PATH/core\widget_class.php
+errLine:37
+errTime:13-07-23 18:47:28
+##出错时变量的值：##
+array (
+  'str' => '<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div > 
+    i \' am in inner
+   asdasd
+    
+</div> 
+    </body>
+</html>
+',
+  'path' => NULL,
+  'max_limit' => 20,
+  'preg_exp' => '/{(\\/?)(widget)\\s*(:?)([^}]*)}/i',
+  'this' => 
+  IWidget::__set_state(array(
+     'viewPath' => NULL,
+  )),
+  'match' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:file_get_contents(E:/Projects/php/zunpingou/views\default\widget\test.html2) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory
+errFile:IWEB_PATH/core\widget_class.php
+errLine:55
+errTime:13-07-23 18:49:11
+##出错时变量的值：##
+array (
+  'matches' => 
+  array (
+    0 => '{widget:test.html2}',
+    1 => '',
+    2 => 'widget',
+    3 => ':',
+    4 => 'test.html2',
+  ),
+  'fileName' => 'test.html2',
+  'viewfile' => 'E:/Projects/php/zunpingou/views\\default\\widget\\test.html2',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  * from iwebshop_quick_naviga  where admin_id =  and is_del = 0    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and is_del = 0    limit 500' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:33   	File:E:\Projects\php\zunpingou\runtime\site\test.php
+	Func:require        	Class:               	Type:     	Line:137  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:103  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:256  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:417  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:28   	File:E:\Projects\php\zunpingou\controllers\site.php
+	Func:test           	Class:Site           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:196  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:E:\Projects\php\zunpingou\index.php
+</ERROR_INFO>

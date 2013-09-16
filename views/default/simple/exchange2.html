@@ -1,0 +1,267 @@
+{js:artTemplate}
+<script type='text/javascript' src='{theme:javascript/artTemplate/area_select.js}'></script>
+<script type='text/javascript' src='{theme:javascript/orderFormClass.js}'></script>
+<script type='text/javascript'>
+//创建订单表单实例
+orderFormInstance = new orderFormClass();
+
+//DOM加载完毕
+jQuery(function(){
+	//使用红包按钮
+
+	//初始化地域联动JS模板
+	template.compile("areaTemplate",areaTemplate);
+
+	//收货地址数据
+	orderFormInstance.addressInit("{$this->defaultAddressId}","{$this->defaultPrpvinceId}");
+
+});
+
+/**
+ * 生成地域js联动下拉框
+ * @param name
+ * @param parent_id
+ * @param select_id
+ */
+function createAreaSelect(name,parent_id,select_id)
+{
+	//生成地区
+	$.getJSON("{url:/block/area_child}",{"aid":parent_id,"random":Math.random()},function(json)
+	{
+		$('[name="'+name+'"]').html(template.render('areaTemplate',{"select_id":select_id,"data":json}));
+	});
+}
+
+//[address]保存到常用的收货地址
+function address_default_save()
+{
+	if(orderFormInstance.addressCheck())
+	{
+		$.getJSON('{url:/ucenter/address_add}',$('form[name="order_form"]').serialize(),function(content){
+			if(content.isError == false)
+			{
+				var addressLiHtml = template.render('addressLiTemplate',{"item":content.data});
+				$('.addr_list').prepend(addressLiHtml);
+				$('input:radio[name="radio_address"]:first').trigger('click');
+			}
+			else
+			{
+				alert(content.message);
+			}
+		});
+	}
+}
+
+//[delivery]根据省份地区ajax获取配送方式
+function get_delivery(province)
+{
+	
+}
+
+
+</script>
+
+<div class="wrapper clearfix">
+	<div class="position mt_10"><span>您当前的位置：</span> <a href="{url:}"> 首页</a> » 填写核对订单信息</div>
+	
+
+	<form action='{url:/simple/exchange3}' method='post' name='order_form' callback='orderFormInstance.isSubmit();'>
+
+		<input type='hidden' name='timeKey' value='{echo:time()}' />
+		<input type='hidden' name='direct_gid' value='{$this->gid}' />
+		<input type='hidden' name='direct_type' value='{$this->type}' />
+		<input type='hidden' name='direct_num' value='{$this->num}' />
+		<input type='hidden' name='direct_promo' value='{$this->promo}' />
+		<input type='hidden' name='direct_active_id' value='{$this->active_id}' />
+
+		<div class="cart_box m_10">
+			<div class="title">填写核对订单信息</div>
+			<div class="cont">
+
+				<!--地址管理 开始-->
+				<div class="wrap_box">
+					<h3>
+						<span class="orange">收货人信息</span>
+						<a class="normal f12" href="javascript:void(0)" id="addressToggleButton" onclick="orderFormInstance.addressModToggle();">[退出]</a>
+					</h3>
+
+					<!--地址展示 开始-->
+					<table class="form_table" id="address_show_box" style='display:none'>
+						<col width="120" />
+						<col />
+
+						<tbody id="addressShowBox"></tbody>
+
+						<!--收货地址展示模板-->
+						<script type='text/html' id='addressShowTemplate'>
+						<tr><th>收货人姓名：</th><td><%=accept_name%></td></tr>
+						<tr><th>省份：</th><td><%=province_val%> <%=city_val%> <%=area_val%></td></tr>
+						<tr><th>地址：</th><td><%=address%></td></tr>
+						<tr><th>手机号码：</th><td><%=mobile%></td></tr>
+						<tr><th>固定电话：</th><td><%=telphone%></td></tr>
+						<tr><th>邮政编码：</th><td><%=zip%></td></tr>
+						</script>
+					</table>
+					<!--地址展示 结束-->
+
+					<!--收货表单信息 开始-->
+					<div class="prompt_4 m_10" id='address_often'>
+						<strong>常用收货地址</strong>
+						<ul class="addr_list">
+							{foreach:items=$this->addressList}
+							<li>
+								<label><input class="radio" name="radio_address" type="radio" value="{$item['id']}" onclick='orderFormInstance.addressSelected({echo:JSON::encode($item)});' />{$item['accept_name']}&nbsp;&nbsp;&nbsp;&nbsp;{$item['province_val']} {$item['city_val']} {$item['area_val']} {$item['address']}</label>
+							</li>
+							{/foreach}
+							<li>
+								<label><input type='radio' name='radio_address' onclick='orderFormInstance.addressEmpty();' value='' />其他收货地址</label>
+							</li>
+						</ul>
+
+						<!--收货地址项模板-->
+						<script type='text/html' id='addressLiTemplate'>
+						<li>
+							<label><input class="radio" name="radio_address" type="radio" value="<%=item['id']%>" onclick='orderFormInstance.addressSelected(<%=jsonToString(item)%>);' /><%=item['accept_name']%>&nbsp;&nbsp;&nbsp;&nbsp;<%=item['province_val']%> <%=item['city_val']%> <%=item['area_val']%> <%=item['address']%></label>
+						</li>
+						</script>
+					</div>
+
+					<div class="box" id='address_form'>
+						<table class="form_table">
+							<col width="90px" />
+							<col />
+
+							<tbody>
+								<tr>
+									<th>收货人姓名：</th><td><input class="normal" type="text" name="accept_name" pattern='required' alt='收件人姓名不能为空' /> <span>(*) 收货人的姓名</span> </td>
+								</tr>
+								<tr>
+									<th>省份：</th>
+									<td>
+										<select name="province" child="city,area" onchange="areaChangeCallback(this);"></select>
+										<select name="city" child="area" parent="province" onchange="areaChangeCallback(this);"></select>
+										<select name="area" parent="city" pattern="required" alt="请选择收货地区"></select>
+										<span>(*) 收货地区</span>
+									</td>
+								</tr>
+								<tr>
+									<th>地址：</th><td><input class="normal" name='address' type="text" alt='格式不正确' pattern='required' /> <span>(*) 收货地址</span></td>
+								</tr>
+								<tr>
+									<th>手机号码：</th><td><input class="middle" name='mobile' type="text" pattern='mobi' alt='格式不正确' /> <span>(*) 收货人的手机号，用于接收发货通知短信及送货前确认</span></td>
+								</tr>
+								<tr>
+									<th>固定电话：</th><td><input class="middle" type="text" pattern='phone' name='telphone' empty alt='格式不正确' /></td>
+								</tr>
+								<tr>
+									<th>邮政编码：</th><td><input class="middle" name='zip' empty type="text" pattern='zip' alt='格式不正确' /></td>
+								</tr>
+								{if:$this->user['user_id']}
+								<tr>
+									<th></th><td><a href="javascript:void(0)" onclick="address_default_save();" class="blue">[添加到常用收货地址]</a></td>
+								</tr>
+								{/if}
+							</tbody>
+						</table>
+					</div>
+					<!--收货表单信息 结束-->
+                                        <div style="position: relative">
+                                            <label class="btn_orange3" id='address_save_button'><input type="button" value="保存收货人地址" onclick="orderFormInstance.addressSave();" /></label> 
+                                            <span name="errTips" class="errInfo" id="address_save_error" style="display: none;">请确认收货信息</span>
+                                        </div>
+                                       
+				</div>
+				<!--地址管理 结束-->
+
+			
+
+				<!--订单留言 开始-->
+				<div class="wrap_box">
+					<h3>
+						<span class="orange">订单附言</span>
+						<a class="normal f12" href="javascript:void(0)" id='messageToggleButton' onclick="orderFormInstance.messageModToggle();">[修改]</a>
+					</h3>
+
+					<table width="100%" class="border_table" id='message_show_box'>
+						<col width="120px" />
+						<col />
+						<tbody>
+							<tr>
+								<th>订单附言：</th>
+								<td id="messageShowBox"></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table width="100%" class="form_table" id='message_form' style='display:none'>
+						<col width="120px" />
+						<col />
+						<tr>
+							<th>订单附言：</th>
+							<td><input class="normal" type="text" name='message' /></td>
+						</tr>
+					</table>
+                                        <div style="position: relative">
+                                            <label class="btn_orange3" id='message_save_button' style='display:none'><input type="button" onclick="orderFormInstance.messageSave();" value="保存订单附言" /></label>
+                                            <span name="errTips" class="errInfo" id="message_save_error" style="display: none;">请确认订单附言</span>
+                                        </div> 
+				</div>
+				<!--订单留言 结束-->
+
+				<!--购买清单 开始-->
+				<div class="wrap_box">
+
+					<h3><span class="orange">购买的商品</span></h3>
+
+
+					<table width="100%" class="cart_table t_c">
+						<col width="115px" />
+						<col width="85px" />
+						<col width="80px" />
+
+						<thead>
+							<tr>
+								<th>图片</th>
+								<th>商品名称</th>
+								<th>礼册名称</th>
+							</tr>
+						</thead>
+
+						<tbody>
+
+							
+
+							<!-- 商品展示 开始-->
+							{foreach:items = $this->goodsList}
+							<tr>
+								<td><img src="{webroot:$item[small_img]}" width="66" height="66" alt="{$item['name']}" title="{$item['name']}" /></td>
+								<td >
+									<a href="{url:/site/products/id/$item[id]}" class="blue">{$item['name']}</a>
+								</td>
+								<td>{$item['title']}</td>
+							</tr>
+							{/foreach}
+							<!-- 商品展示 结束-->
+
+						</tbody>
+					</table>
+				</div>
+				<!--购买清单 结束-->
+
+			</div>
+		</div>
+
+		<!--金额结算-->
+		<div class="cart_box" id='amountBox'>
+			<div class="cont_2">
+				<strong>结算信息</strong>
+				
+				<hr class="dashed" />
+				
+				<p class="m_10 t_r"><input type="submit" class="submit_order" /></p>
+			</div>
+		</div>
+
+	</form>
+
+</div>

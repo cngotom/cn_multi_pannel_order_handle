@@ -1,0 +1,800 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:191
+errTime:13-07-24 00:15:05
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:191
+errTime:13-07-24 00:15:40
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:191
+errTime:13-07-24 00:15:41
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:191
+errTime:13-07-24 00:15:41
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:191
+errTime:13-07-24 00:15:41
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, string given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:16:19
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, string given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:16:20
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, string given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:16:20
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:17:05
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:17:06
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:17:06
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:17:06
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:17:06
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:20:10
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:38
+errTime:13-07-24 00:20:43
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:15
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:15
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:15
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:15
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:15
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:15
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:array_key_exists() expects parameter 2 to be array, null given
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:37
+errTime:13-07-24 00:21:16
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:48
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:51
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:55
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:55
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:58
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:58
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:59
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:59
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:59
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:21:59
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:22:00
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:215
+errTime:13-07-24 00:22:00
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:50
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:50
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:52
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:52
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:52
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:52
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:216
+errTime:13-07-24 00:22:54
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined property: ControllerCache::$module
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:114
+errTime:13-07-24 00:24:11
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined property: ControllerCache::$module
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:114
+errTime:13-07-24 00:24:12
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined property: ControllerCache::$module
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:114
+errTime:13-07-24 00:24:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: viewPath
+errFile:IWEB_PATH/web\controller\controller_cache.php
+errLine:114
+errTime:13-07-24 00:27:53
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:28:08
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:28:12
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:28:12
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:28:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:28:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:28:28
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:29:12
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:29:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:29:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:29:28
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:29:29
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:29:29
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:29:37
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:29:38
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:29:39
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:30:10
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:30:11
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:30:11
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:30:30
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:32:30
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:32:43
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:33:13
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:33:14
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:03
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:03
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:04
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:04
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:04
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:04
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:2
+errStr:Cannot modify header information - headers already sent by (output started at E:\Projects\php\zunpingou\lib\web\controller\controller_cache.php:115)
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:208
+errTime:13-07-24 00:34:04
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:17
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:17
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:18
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:18
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:18
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:18
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: action_id
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:220
+errTime:13-07-24 00:34:19
+##出错时变量的值：##
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: source
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:311
+errTime:13-07-24 18:40:28
+##出错时变量的值：##
+array (
+  'view' => 'widget/test.html',
+  'data' => 
+  array (
+    'welcome' => 'Hello',
+  ),
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\widget/test.html',
+  'viewContent' => '<?php  $welcome2 = "hello world";
+?>
+
+<?php echo isset($welcome)?$welcome:"";?>',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: source
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:311
+errTime:13-07-24 18:40:29
+##出错时变量的值：##
+array (
+  'view' => 'widget/test.html',
+  'data' => 
+  array (
+    'welcome' => 'Hello',
+  ),
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\widget/test.html',
+  'viewContent' => '<?php  $welcome2 = "hello world";
+?>
+
+<?php echo isset($welcome)?$welcome:"";?>',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: source
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:311
+errTime:13-07-24 18:40:29
+##出错时变量的值：##
+array (
+  'view' => 'widget/test.html',
+  'data' => 
+  array (
+    'welcome' => 'Hello',
+  ),
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\widget/test.html',
+  'viewContent' => '<?php  $welcome2 = "hello world";
+?>
+
+<?php echo isset($welcome)?$welcome:"";?>',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: source
+errFile:IWEB_PATH/web\controller\controller_class.php
+errLine:311
+errTime:13-07-24 18:40:29
+##出错时变量的值：##
+array (
+  'view' => 'widget/test.html',
+  'data' => 
+  array (
+    'welcome' => 'Hello',
+  ),
+  'viewFile' => 'E:/Projects/php/zunpingou/views\\default\\widget/test.html',
+  'viewContent' => '<?php  $welcome2 = "hello world";
+?>
+
+<?php echo isset($welcome)?$welcome:"";?>',
+)
+<\ERROR_INFO>

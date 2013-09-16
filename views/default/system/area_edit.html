@@ -1,0 +1,108 @@
+{js:kindeditor}
+<script type='text/javascript' src='{theme:javascript/event.js}' charset="UTF-8"></script>
+<div class="headbar">
+	<div class="position"><span>系统</span><span>></span><span>配送管理</span><span>></span><span>{if:isset($area['area_id'])}修改地区{else:}添加地区{/if}</span></div>
+</div>
+<div class="content_box">
+	<div class="content form_content">
+		<form action="{url:/system/area_save/}" method="post">
+			<table class="form_table">
+				<col width="150px" />
+				<col />
+				<tr>
+					<th>地区名称：</th><td><input class="normal" name="area_name" type="text" value="{$area['area_name']}" pattern='required' alt='地址名称不能为空'/><label>*</label></td>
+				</tr>
+				<tr>
+					<th>上级地区：</th>
+					<td><input id='parent_id' class="normal" empty name="parent_name" type="text" readonly="true" value="{$area['parent_name']}" pattern='required'/><label>不填写默认为顶级分类</label>
+						<input type="hidden" value="{$area['parent_id']}" name="parent_id" />
+						<input type="hidden" value="{$area['area_id']}" name="area_id" />
+					</td>
+				</tr>
+				<tr>
+					<th>排序：</th><td><input class="normal" name="sort" type="text" style="width:30px;" value="{$area['sort']}" pattern='int' empty/><label>不填写默认为0</label></td>
+				</tr>
+				<tr>
+					<td></td><td><button class="submit" type="submit"><span>确 定</span></button><button class="submit" type="button" onclick='event_link("{url:/system/area}")'><span>返 回</span></button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+<script language="javascript">
+
+	var js_group = {};
+	var tpl_group = '<div id="area_select" style="height:320px; overflow-y:auto;width:250px;"></div>';
+
+	//缩进像素
+	var pl=20;
+	$("input[name='parent_name']").bind('click',function(){
+		if ($("#area_select").length<1)
+		{
+			show_area(pl);
+		}
+	});
+	function show_area(pl)
+	{
+		art.dialog({
+			id: 'remove',
+			title: '地区选择',
+			height: '330px',
+			content: js_group,
+			tmpl: tpl_group,
+			ok:function(){
+				$(":input[name='parent_name']").attr("value",$.trim($(":input[name='region']:checked").parent().text()));
+				$(":input[name='parent_id']").attr("value",$(":input[name='region']:checked").attr("value"));
+				FireEvent(document.getElementById('parent_id'),'onchange')
+				return true;
+			},
+			cancel: true,
+			init:function(){
+				$.get("{url:/block/area_child/}",{aid:0},function(areas){
+					var html = '';
+					for (var i=0;i<areas.length ;i++ )
+					{
+						html += '<div style="padding-top:3px" parent="'+areas[i].parent_id+'">'+
+								'	<label><img id="'+areas[i].area_id+'" class="operator" src="{skin:images/admin/open.gif}" alt="展开" /><input type="radio" name="region" value="'+areas[i].area_id+'" /> '+areas[i].area_name+'</label>'+
+								'</div>';
+					}
+					$("#area_select").append(html);
+					toggle($("#area_select").find(".operator").get(),pl);
+				},'json');
+			}
+		});
+	}
+	function toggle(obj_jq,pl)
+	{
+		$(obj_jq).each(function(i) {
+			var obj_tr = $(this).parent().parent();
+			$(this).toggle(function(){
+				if (obj_tr.next("div[grade='child']").length>0)
+				{
+					obj_tr.next("div[grade='child']").toggle(true);
+				}else{
+					$.get("{url:/block/area_child/}",{aid:$(this).attr('id')},function(areas){
+						if (areas.length>0)
+						{
+							var html = '<div grade="child">';
+							for (var i=0;i<areas.length ;i++ )
+							{
+								html += '<div style="padding-top:3px" parent="'+areas[i].parent_id+'">'+
+										'	<label style="padding-left:'+pl+'px;"><img id="'+areas[i].area_id+'" class="operator" src="{skin:images/admin/open.gif}" alt="展开" /> <input type="radio" name="region" value="'+areas[i].area_id+'" /> '+areas[i].area_name+'</label>'+
+										'</div>';
+							}
+							html += '</div>';
+							obj_tr.after(html);
+							toggle(obj_tr.next("div[grade='child']").find(".operator").get(),pl+pl);
+						}
+					},'json');
+				}
+				$(this).attr("src", "{skin:images/admin/close.gif}");
+			},function(){
+				obj_tr.next("div[grade='child']").toggle(false);
+				$(this).attr("src", "{skin:images/admin/open.gif}");
+			});
+		});
+	}
+</script>
+

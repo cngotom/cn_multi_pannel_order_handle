@@ -1,0 +1,37 @@
+{set:
+	
+}
+
+<div class="position"> <span>您当前的位置：</span> <a href="{url:}"> 首页</a> » 兑换中心 </div>
+<div class="theme clearfix">
+	<div style="padding:100px 0;">
+		<div class="box exchange_box clearfix">
+			<form action='{url:/simple/exchange_login}' method='post'>
+				<input type="hidden" name='callback' />
+				<table width="515" class="form_table f_l">
+					<col width="120px" />
+					<col />
+                                            
+                                        {set: $ex_goods_id = IFilter::act(IReq::get('ex_goods_id'),'int'); }
+                                        {if:$ex_goods_id>0}
+                                            <input type="hidden" name="ex_goods_id" value="{$ex_goods_id}"/>
+                                        {/if}
+                                        
+                                        
+					{if:$this->message!=''}
+					<tr><td colspan="2">
+						<div class="prompt"><img src="{skin:images/front/error_s.gif}" width="16" height="15" />{$this->message}</div>
+					</td></tr>
+					{/if}
+
+					<tr><th>礼品卡编号：</th><td><input class="gray" type="text" name="card_no"  pattern='required' alt='填写礼卡编号' /></td></tr>
+					<tr><th>礼品卡密码：</th><td><input class="gray" type="password" name="password" pattern='^\S{3,32}$' alt='填写密码' /></td></tr>
+					<tr><th>验证码：</th><td><input type='text' class='gray_s' name='captcha' pattern='^\w{5,10}$' alt='填写下面图片所示的字符' /><label>填写下面图片所示的字符</label></td></tr>
+					<tr class="low"><th></th><td><img src='{url:/simple/getCaptcha}' id='captchaImg' /><span class="light_gray">看不清？<a class="link" href="javascript:changeCaptcha('{url:/simple/getCaptcha}');">换一张</a></span></td></tr>
+					<tr><td></td><td><input class="submit_login" type="submit" value="确定" /></td></tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</div>
+

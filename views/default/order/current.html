@@ -1,0 +1,36 @@
+<div class="container">
+	<table class="table">
+
+
+
+		<thead>
+			<th> 订单日期 </th>
+			<th> 订单金额 </th>
+			<th> 订单状态  </th>
+			<th> 平台 </th>
+		</thead>
+
+		<tbody>
+
+			{foreach:items=$orders item=$item}
+					<tr> 
+						<td>{$item['modified_time']}	</td>
+						<td>{$item['payment']}	</td>
+						<td> 待发货	</td>
+						<th>{$item['from']}</th>
+					</tr>
+			{/foreach}
+
+		</tbody>
+
+
+
+
+
+
+
+
+
+	</table>
+
+</div>

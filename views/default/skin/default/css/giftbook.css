@@ -1,0 +1,62 @@
+/*礼品册css*/
+
+/* 礼品册 */
+.gift_theme{ width:978px; height:auto; overflow:hidden; margin:0 auto; padding:0 10px; clear:both; margin-top:20px;}
+
+
+/* 礼品册 左侧导航*/
+.giftboos_left{width:195px; float:left;height:auto; overflow:hidden;}
+   .gL_up{}
+   .gL_middle{ background:url(../images/index/L_navbg.jpg) repeat-y; width:195px; height:230px;}
+   .gL_middle ul.Title{padding:0 10px;}
+   .gL_middle ul.Title li{height:29px;line-height:29px;border-bottom:solid 1px #e8d3cb;background-image: url(../images/index/gif_09.gif);
+	background-repeat: no-repeat;background-position: left;text-indent: 13px;}
+	.gL_middle ul.Title li a,.gL_middle ul.Title li a:visited{text-decoration:none;}
+	.gL_middle ul.Title li a:hover,.gL_middle ul.Title li a:active{ color:#b70203; text-decoration:none;}
+	
+	
+   .gL_down{}
+   
+/*礼品册购买页面  左侧礼品分类导航*/
+.gL03_up{ margin-top:2px;}
+.gL03_middle{background:url(../images/index/L_navbg.jpg) repeat-y; width:195px;}
+.gL03_middle dl{padding:0 10px;}
+.gL03_middle dl dt{height:29px;line-height:29px;border-bottom:solid 1px #e8d3cb;background-image: url(../images/index/gif_09.gif);
+	background-repeat: no-repeat;background-position: left;text-indent: 13px;}   
+	 
+/* 礼品册 右侧*/
+.giftbooks_right{width:770px; float:right; height:auto; overflow:hidden;}
+   .giftbooks_banner{width:770px;height:auto;}
+   .gb_Rcontent_middle{height:auto; overflow:hidden; background-color:#fbfbfb; padding:15px 20px 60px 35px;}
+   .gb_Rcontent_middle h1{ font-size:14px; padding:5px 0 10px; background:url(../images/index/gif_11.jpg) no-repeat left; text-indent:20px;
+   font-weight:bold; margin-top:20px;}
+    .gb_Rcontent_middle h2{ font-size:16px; padding:5px 0 10px; text-indent:20px;font-weight:bold; margin-top:20px; font-family:"微软雅黑"; color:#c6013d;}
+    .gb_Rcontent_middle p{ font-size:12px; line-height:22px; text-align:justify; }
+	    .gb_Rcontent_middle p strong{ font-size:12px; font-weight:bold;}
+
+	/*礼品册产品*/
+	 .gb03_product li{ float:left; width:156px; height:220px; text-align:center; overflow:hidden; padding:10px; /*border:solid 1px red;*/ }
+	 .gb03_product .pic{width:140px; height:160px; overflow:hidden;}
+	 .gb03_product .pro_info{ text-align:left;}
+	 
+/* 礼品册定制页面gb_04     右侧*/
+.lpc_buy{}
+.lpc_buy p span{ color:#993300; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;}
+.lpc_buy .pic{ width:190px; height:105px; overflow:hidden;}
+
+.lpc_buy ul li{ float:left; padding-right:20px; width:190px; padding-bottom:10px;}
+	 
+
+/* 礼品册大客户页面gb_06   右侧*/
+.gb06_middle_list{ width:768px; border:solid 1px #dfdfdf; height:217px; background:url(../images/index/gb_06_rlinebg.jpg) repeat-x;}
+.gb06_middle_list p{ text-align:justify; line-height:22px;}
+.gb06_middle_list h3{ font-size:14px; font-weight:bold; color:#005ff8; padding-bottom:10px;}
+.gb06_middle_list .dkhlogo{ width:160px; float:left; text-align:center; padding-top:80px;}
+.gb06_middle_list .dkhxuxian{ float:left; width:5px; height:217px;}
+.gb06_middle_list .dkhdes{ float:left; width:500px; padding:20px 50px;}
+.gb06_middle_list .dkhbtn{width:128px; height:23px;position:relative; top:5px; left:70px;}
+
+div.pic img{
+    width:140px;
+    height:160px;
+}

@@ -1,0 +1,26 @@
+/*帮助中心css*/
+
+.gift_theme{ width:978px; height:auto; overflow:hidden; margin:0 auto; padding:0 10px; clear:both; margin-top:20px;}
+
+
+/* 帮助中心 左侧导航*/
+.giftboos_left{width:195px; float:left;height:auto; overflow:hidden;}
+   .gL_up{}
+   .gL_middle{ background:url(../images/index/L_navbg.jpg) repeat-y; width:195px; height:auto; padding-bottom:30px;}
+   .gL_middle dl{padding:0 10px;}
+   .gL_middle dl dt{height:29px;line-height:29px;border-bottom:solid 1px #e8d3cb;background-image: url(../images/index/gif_09.gif);
+	background-repeat: no-repeat;background-position: left;text-indent: 13px; font-weight:bold;}
+	.gL_middle dl dd{height:29px;line-height:29px;border-bottom:solid 1px #e8d3cb;text-indent: 15px;}
+   .gL_down{}
+   
+   
+/* 礼品册 右侧*/
+.giftbooks_right{width:770px; float:right; height:auto; overflow:hidden;}
+   .giftbooks_banner{width:770px;height:auto;}
+   .gb_Rcontent_middle{height:auto; overflow:hidden; background-color:#fbfbfb; padding:15px 20px 60px 35px;}
+   .gb_Rcontent_middle h1{ font-size:14px; padding:5px 0 10px; background:url(../images/index/gif_11.jpg) no-repeat left; text-indent:20px;
+   font-weight:bold; margin-top:5px;}
+    .gb_Rcontent_middle h2{ font-size:16px; padding:5px 0 10px; text-indent:20px;font-weight:bold; margin-top:20px; font-family:"微软雅黑"; color:#c6013d;}
+    .gb_Rcontent_middle p{ font-size:12px; line-height:22px; text-align:justify; }
+	.gb_Rcontent_middle p strong{ font-size:12px; font-weight:bold;}
+

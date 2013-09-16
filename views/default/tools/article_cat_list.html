@@ -1,0 +1,69 @@
+<div class="headbar">
+	<div class="position"><span>工具</span><span>></span><span>文章管理</span><span>></span><span>分类管理</span></div>
+	<div class="operating">
+		<a href="javascript:void(0)" onclick="event_link('{url:/tools/article_cat_edit}');"><button class="operating_btn" type="button"><span class="addition">添加分类</span></button></a>
+	</div>
+	<div class="field">
+		<table class="list_table">
+			<col width="550px" />
+			<col width="70px" />
+			<col />
+			<thead>
+				<tr>
+					<th>分类名称</th>
+					<th>系统</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+<div class="content">
+	<table id="list_table" class="list_table">
+		<col width="550px" />
+		<col width="70px" />
+		<col />
+		<tbody>
+			{query: name=article_category order=path}
+			<tr id="{$item['id']}" parent={$item['parent_id']}>
+				<td><img name="switch" style="margin-left:{echo:(substr_count($item['path'],',')-2)*2}0px" class="operator" src="{skin:images/admin/close.gif}" alt="关闭" />{$item['name']}</td>
+				<td>{echo:($item['issys']==1) ? '是':'否'}</td>
+				<td>
+					<a href='{url:/tools/cat_edit/id/$item[id]}'><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="编辑" title="编辑" /></a>
+					<a href='javascript:void(0)' onclick="delModel({link:'{url:/tools/cat_del/id/$item[id]}'});"><img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" title="删除" /></a>
+				</td>
+			</tr>
+			{/query}
+		</tbody>
+	</table>
+</div>
+<script language="javascript">
+$("img[name='switch']").each(function(i){
+	$(this).toggle(function(){
+		jqshow($(this).parent().parent().attr('id'), 'hide');
+		$(this).attr("src", "{skin:images/admin/open.gif}");
+	},function(){
+		jqshow($(this).parent().parent().attr('id'), 'show');
+		$(this).attr("src", "{skin:images/admin/close.gif}");
+	});
+});
+
+function jqshow(id,isshow)
+{
+	var obj = $("#list_table tr[parent='"+id+"']");
+	if (obj.length>0)
+	{
+		obj.each(function(i) {
+			jqshow($(this).attr('id'), isshow);
+		});
+		if (isshow=='hide')
+		{
+			obj.hide();
+		}
+		else
+		{
+			obj.show();
+		}
+	}
+}
+</script>

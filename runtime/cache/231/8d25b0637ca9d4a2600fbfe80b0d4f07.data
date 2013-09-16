@@ -1,0 +1,1 @@
+a:1:{i:0;a:5:{s:2:"id";s:1:"1";s:4:"name";s:6:"大米";s:9:"parent_id";s:1:"0";s:10:"visibility";s:1:"1";s:6:"second";a:1:{i:0;a:5:{s:2:"id";s:1:"2";s:4:"name";s:9:"新衣服";s:9:"parent_id";s:1:"1";s:10:"visibility";s:1:"1";s:4:"more";a:0:{}}}}}

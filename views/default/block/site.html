@@ -1,0 +1,48 @@
+{if:$mod == 'mycart'}
+<dl class="cartlist">
+	{foreach:items = $data}
+	<dd id="site_cart_dd_{$key}">
+		<div class="pic f_l"><img width="55" height="55" src="{webroot:$item[list_img]}"></div>
+		<h3 class="title f_l"><a href="{url:/site/products/id/$item[goods_id]}">{$item['name']}</a></h3>
+		<div class="price f_r t_r">
+			<b class="block">￥{$item['sell_price']} x {$item['count']}</b>
+			<input class="del" type="button" value="删除" onclick="removeCart('{url:/simple/removeCart}','{$item['id']}','{$item['type']}');$('#site_cart_dd_{$key}').hide('slow');" />
+		</div>
+	</dd>
+	{/foreach}
+
+	<dd class="static"><span>共<b name="mycart_count">{$count}</b>件商品</span>金额总计：<b name="mycart_sum">￥{$sum}</b></dd>
+
+	{if:isset($data) && !empty($data)}
+		<dd class="static">
+			{if:ISafe::get('user_id')}
+			<a class="f_l" href="javascript:void(0)" onclick="deposit_ajax('{url:/simple/deposit_cart_set}');">寄存购物车>></a>
+			{/if}
+			<label class="btn_orange"><input type="button" value="去购物车结算" onclick="window.location.href='{url:/simple/cart}';" /></label>
+		</dd>
+	{/if}
+</dl>
+{/if}
+
+{if:$mod == 'selectProduct'}
+	<table width="100%">
+		<col />
+		<col width="80px" />
+		<col width="60px" />
+		{foreach:items = $productList}
+		<tr>
+			<td align="left">
+				{set:$spec_array=Block::show_spec($item['spec_array']);}
+				{foreach:items=$spec_array item=$specValue key=$specName}
+					{$specName}：{$specValue} &nbsp&nbsp
+				{/foreach}
+			</td>
+			<td align="center"><span class="bold red2">￥{$item['sell_price']}</span></td>
+			<td align="right"><label class="btn_gray_s"><input type="button" onclick="joinCart_ajax('{$item['id']}','product');" value="购买"></label></td>
+		</tr>
+		{/foreach}
+		<tr>
+			<td colspan='3' align="left"><a href='{url:/site/products/id/$item[goods_id]}'>查看更多</a></td>
+		</tr>
+	</table>
+{/if}

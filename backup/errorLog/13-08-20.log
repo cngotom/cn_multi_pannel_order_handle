@@ -1,0 +1,820 @@
+<ERROR_INFO>
+errID:2
+errStr:Invalid argument supplied for foreach()
+errFile:D:\projects\php\zunpingou\controllers\block.php
+errLine:191
+errTime:13-08-20 20:28:59
+##出错时变量的值：##
+array (
+  'catList' => NULL,
+  'catId' => 3,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE  1=1 group by volume_id ORDER BY order ASC 
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order ASC' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE  1=1 group by volume_id ORDER BY sort ASC 
+ -- Unknown column 'sort' in 'order clause'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE  1=1 group by volume_id ORDER BY sort ASC 
+ -- Unknown column 'sort' in 'order clause'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: SELECT volume_id,count(volume_id)  as count  FROM iwebshop_volumes_goods WHERE  1=1 group by volume_id ORDER BY sort ASC 
+ -- Unknown column 'sort' in 'order clause'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:186  	File:IWEB_PATH/web\model\model_class.php
+	Func:query          	Class:IModel         	Type:->   	Line:201  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  type
+errFile:D:\projects\php\zunpingou\runtime\order\order_list.php
+errLine:145
+errTime:13-08-20 22:02:49
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\order\\order_list.php',
+  'data' => NULL,
+  'name' => '',
+  'order_no' => '',
+  'pay_status' => '',
+  'distribution_status' => '',
+  'status' => '',
+  'where' => '',
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_order as o',
+      'fields' => 'o.id as oid,d.name as dname,o.pay_type,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.if_print',
+      'where' => 'where if_del = 0 ',
+      'join' => 'left join iwebshop_delivery  as d on o.distribution = d.id left join iwebshop_payment  as p on o.pay_type = p.id left join iwebshop_user  as u on u.id = o.user_id',
+      'group' => '',
+      'having' => '',
+      'order' => 'order by o.id desc',
+      'limit' => 'limit 500',
+      'distinct' => '',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select  o.id as oid,d.name as dname,o.pay_type,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.if_print from iwebshop_order as o left join iwebshop_delivery  as d on o.distribution = d.id left join iwebshop_payment  as p on o.pay_type = p.id left join iwebshop_user  as u on u.id = o.user_id where if_del = 0    order by o.id desc',
+       'rows' => '6',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'oid' => '25',
+      'dname' => NULL,
+      'pay_type' => '0',
+      'pname' => NULL,
+      'order_no' => '20130819074923267843',
+      'accept_name' => '郭涛',
+      'pay_status' => '2',
+      'distribution_status' => '0',
+      'username' => NULL,
+      'create_time' => '2013-08-19 07:49:23',
+      'status' => '5',
+      'if_print' => NULL,
+    ),
+    1 => 
+    array (
+      'oid' => '24',
+      'dname' => NULL,
+      'pay_type' => '0',
+      'pname' => NULL,
+      'order_no' => '20130807223754840835',
+      'accept_name' => '郭涛',
+      'pay_status' => '1',
+      'distribution_status' => '1',
+      'username' => NULL,
+      'create_time' => '2013-08-07 22:37:54',
+      'status' => '5',
+      'if_print' => NULL,
+    ),
+    2 => 
+    array (
+      'oid' => '5',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130727122341319259',
+      'accept_name' => '爱的',
+      'pay_status' => '0',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-27 12:23:42',
+      'status' => '1',
+      'if_print' => NULL,
+    ),
+    3 => 
+    array (
+      'oid' => '4',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130727102430138012',
+      'accept_name' => '爱的',
+      'pay_status' => '0',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-27 10:24:30',
+      'status' => '1',
+      'if_print' => NULL,
+    ),
+    4 => 
+    array (
+      'oid' => '3',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130722223410798126',
+      'accept_name' => '爱的',
+      'pay_status' => '2',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-22 22:34:10',
+      'status' => '2',
+      'if_print' => NULL,
+    ),
+    5 => 
+    array (
+      'oid' => '1',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130623165225586309',
+      'accept_name' => '爱的',
+      'pay_status' => '1',
+      'distribution_status' => '1',
+      'username' => 'guotao715',
+      'create_time' => '2013-06-23 16:52:25',
+      'status' => '2',
+      'if_print' => NULL,
+    ),
+  ),
+  'page' => 1,
+  'item' => 
+  array (
+    'oid' => '25',
+    'dname' => NULL,
+    'pay_type' => '0',
+    'pname' => NULL,
+    'order_no' => '20130819074923267843',
+    'accept_name' => '郭涛',
+    'pay_status' => '2',
+    'distribution_status' => '0',
+    'username' => NULL,
+    'create_time' => '2013-08-19 07:49:23',
+    'status' => '5',
+    'if_print' => NULL,
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  id
+errFile:D:\projects\php\zunpingou\runtime\order\order_list.php
+errLine:149
+errTime:13-08-20 22:03:34
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\order\\order_list.php',
+  'data' => NULL,
+  'name' => '',
+  'order_no' => '',
+  'pay_status' => '',
+  'distribution_status' => '',
+  'status' => '',
+  'where' => '',
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_order as o',
+      'fields' => 'o.id as oid,d.name as dname,o.pay_type,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.type as type,o.if_print',
+      'where' => 'where if_del = 0 ',
+      'join' => 'left join iwebshop_delivery  as d on o.distribution = d.id left join iwebshop_payment  as p on o.pay_type = p.id left join iwebshop_user  as u on u.id = o.user_id',
+      'group' => '',
+      'having' => '',
+      'order' => 'order by o.id desc',
+      'limit' => 'limit 500',
+      'distinct' => '',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select  o.id as oid,d.name as dname,o.pay_type,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.type as type,o.if_print from iwebshop_order as o left join iwebshop_delivery  as d on o.distribution = d.id left join iwebshop_payment  as p on o.pay_type = p.id left join iwebshop_user  as u on u.id = o.user_id where if_del = 0    order by o.id desc',
+       'rows' => '6',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'oid' => '25',
+      'dname' => NULL,
+      'pay_type' => '0',
+      'pname' => NULL,
+      'order_no' => '20130819074923267843',
+      'accept_name' => '郭涛',
+      'pay_status' => '2',
+      'distribution_status' => '0',
+      'username' => NULL,
+      'create_time' => '2013-08-19 07:49:23',
+      'status' => '5',
+      'type' => '3',
+      'if_print' => NULL,
+    ),
+    1 => 
+    array (
+      'oid' => '24',
+      'dname' => NULL,
+      'pay_type' => '0',
+      'pname' => NULL,
+      'order_no' => '20130807223754840835',
+      'accept_name' => '郭涛',
+      'pay_status' => '1',
+      'distribution_status' => '1',
+      'username' => NULL,
+      'create_time' => '2013-08-07 22:37:54',
+      'status' => '5',
+      'type' => '3',
+      'if_print' => NULL,
+    ),
+    2 => 
+    array (
+      'oid' => '5',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130727122341319259',
+      'accept_name' => '爱的',
+      'pay_status' => '0',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-27 12:23:42',
+      'status' => '1',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+    3 => 
+    array (
+      'oid' => '4',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130727102430138012',
+      'accept_name' => '爱的',
+      'pay_status' => '0',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-27 10:24:30',
+      'status' => '1',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+    4 => 
+    array (
+      'oid' => '3',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130722223410798126',
+      'accept_name' => '爱的',
+      'pay_status' => '2',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-22 22:34:10',
+      'status' => '2',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+    5 => 
+    array (
+      'oid' => '1',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130623165225586309',
+      'accept_name' => '爱的',
+      'pay_status' => '1',
+      'distribution_status' => '1',
+      'username' => 'guotao715',
+      'create_time' => '2013-06-23 16:52:25',
+      'status' => '2',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+  ),
+  'page' => 1,
+  'item' => 
+  array (
+    'oid' => '25',
+    'dname' => NULL,
+    'pay_type' => '0',
+    'pname' => NULL,
+    'order_no' => '20130819074923267843',
+    'accept_name' => '郭涛',
+    'pay_status' => '2',
+    'distribution_status' => '0',
+    'username' => NULL,
+    'create_time' => '2013-08-19 07:49:23',
+    'status' => '5',
+    'type' => '3',
+    'if_print' => NULL,
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  id
+errFile:D:\projects\php\zunpingou\runtime\order\order_list.php
+errLine:149
+errTime:13-08-20 22:03:37
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\order\\order_list.php',
+  'data' => NULL,
+  'name' => '',
+  'order_no' => '',
+  'pay_status' => '',
+  'distribution_status' => '',
+  'status' => '',
+  'where' => '',
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_order as o',
+      'fields' => 'o.id as oid,d.name as dname,o.pay_type,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.type as type,o.if_print',
+      'where' => 'where if_del = 0 ',
+      'join' => 'left join iwebshop_delivery  as d on o.distribution = d.id left join iwebshop_payment  as p on o.pay_type = p.id left join iwebshop_user  as u on u.id = o.user_id',
+      'group' => '',
+      'having' => '',
+      'order' => 'order by o.id desc',
+      'limit' => 'limit 500',
+      'distinct' => '',
+      'page' => 1,
+    ),
+     'paging' => 
+    IPaging::__set_state(array(
+       'fields' => NULL,
+       'dbo' => 
+      IMysql::__set_state(array(
+         'linkRes' => NULL,
+      )),
+       'sql' => 'select  o.id as oid,d.name as dname,o.pay_type,p.name as pname,o.order_no,o.accept_name,o.pay_status,o.distribution_status,u.username,o.create_time,o.status,o.type as type,o.if_print from iwebshop_order as o left join iwebshop_delivery  as d on o.distribution = d.id left join iwebshop_payment  as p on o.pay_type = p.id left join iwebshop_user  as u on u.id = o.user_id where if_del = 0    order by o.id desc',
+       'rows' => '6',
+       'index' => 1,
+       'totalpage' => 1,
+       'pagesize' => 20,
+       'firstpage' => 1,
+       'lastpage' => 1,
+       'pagelength' => 10,
+    )),
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'oid' => '25',
+      'dname' => NULL,
+      'pay_type' => '0',
+      'pname' => NULL,
+      'order_no' => '20130819074923267843',
+      'accept_name' => '郭涛',
+      'pay_status' => '2',
+      'distribution_status' => '0',
+      'username' => NULL,
+      'create_time' => '2013-08-19 07:49:23',
+      'status' => '5',
+      'type' => '3',
+      'if_print' => NULL,
+    ),
+    1 => 
+    array (
+      'oid' => '24',
+      'dname' => NULL,
+      'pay_type' => '0',
+      'pname' => NULL,
+      'order_no' => '20130807223754840835',
+      'accept_name' => '郭涛',
+      'pay_status' => '1',
+      'distribution_status' => '1',
+      'username' => NULL,
+      'create_time' => '2013-08-07 22:37:54',
+      'status' => '5',
+      'type' => '3',
+      'if_print' => NULL,
+    ),
+    2 => 
+    array (
+      'oid' => '5',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130727122341319259',
+      'accept_name' => '爱的',
+      'pay_status' => '0',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-27 12:23:42',
+      'status' => '1',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+    3 => 
+    array (
+      'oid' => '4',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130727102430138012',
+      'accept_name' => '爱的',
+      'pay_status' => '0',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-27 10:24:30',
+      'status' => '1',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+    4 => 
+    array (
+      'oid' => '3',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130722223410798126',
+      'accept_name' => '爱的',
+      'pay_status' => '2',
+      'distribution_status' => '0',
+      'username' => 'guotao715',
+      'create_time' => '2013-07-22 22:34:10',
+      'status' => '2',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+    5 => 
+    array (
+      'oid' => '1',
+      'dname' => '天天快递北京',
+      'pay_type' => '5',
+      'pname' => '支付宝',
+      'order_no' => '20130623165225586309',
+      'accept_name' => '爱的',
+      'pay_status' => '1',
+      'distribution_status' => '1',
+      'username' => 'guotao715',
+      'create_time' => '2013-06-23 16:52:25',
+      'status' => '2',
+      'type' => '0',
+      'if_print' => NULL,
+    ),
+  ),
+  'page' => 1,
+  'item' => 
+  array (
+    'oid' => '25',
+    'dname' => NULL,
+    'pay_type' => '0',
+    'pname' => NULL,
+    'order_no' => '20130819074923267843',
+    'accept_name' => '郭涛',
+    'pay_status' => '2',
+    'distribution_status' => '0',
+    'username' => NULL,
+    'create_time' => '2013-08-19 07:49:23',
+    'status' => '5',
+    'type' => '3',
+    'if_print' => NULL,
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title from iwebshop_gift_goods as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- Table 'iwebshop.iwebshop_gift_goods' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:113  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_title_by_order	Class:Giftcard       	Type:::   	Line:150  	File:D:\projects\php\zunpingou\runtime\order\order_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:870  	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_list     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title from iwebshop_gift_goods as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- Table 'iwebshop.iwebshop_gift_goods' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:113  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_title_by_order	Class:Giftcard       	Type:::   	Line:150  	File:D:\projects\php\zunpingou\runtime\order\order_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:870  	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_list     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title from iwebshop_gift_cards as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- Table 'iwebshop.iwebshop_gift_cards' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:113  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_title_by_order	Class:Giftcard       	Type:::   	Line:150  	File:D:\projects\php\zunpingou\runtime\order\order_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:870  	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_list     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title from iwebshop_gift_cards as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- Table 'iwebshop.iwebshop_gift_cards' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:113  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_title_by_order	Class:Giftcard       	Type:::   	Line:150  	File:D:\projects\php\zunpingou\runtime\order\order_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:870  	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_list     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title from iwebshop_gift_cards as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- Table 'iwebshop.iwebshop_gift_cards' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:113  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_title_by_order	Class:Giftcard       	Type:::   	Line:150  	File:D:\projects\php\zunpingou\runtime\order\order_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:870  	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_list     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset:  0
+errFile:D:\projects\php\zunpingou\classes\giftcard.php
+errLine:114
+errTime:13-08-20 22:05:14
+##出错时变量的值：##
+array (
+  'order_id' => '25',
+  'volumes_goods' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_gift_card as g',
+      'fields' => 'v.title as title',
+      'where' => 'where  o.id =  25',
+      'join' => 'inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'volumes_info' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title g.no as no,g.use_time as use_time,g.message as message from iwebshop_gift_card as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.no as no,g.use_time as use_time,g.message as message from iwebshop_gift_card a' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:125  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_info_by_order	Class:Giftcard       	Type:::   	Line:43   	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_show     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title g.no as no,g.use_time as use_time,g.message as message from iwebshop_gift_card as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.no as no,g.use_time as use_time,g.message as message from iwebshop_gift_card a' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:125  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_info_by_order	Class:Giftcard       	Type:::   	Line:43   	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_show     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select  v.title as title g.no as no,g.use_time as use_time,g.message as message from iwebshop_gift_card as g inner  join iwebshop_order  as o on g.order_id = o.id  left join iwebshop_volumes  as v on v.id = g.volume_id where  o.id =  25    limit 500
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.no as no,g.use_time as use_time,g.message as message from iwebshop_gift_card a' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:127  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:125  	File:D:\projects\php\zunpingou\classes\giftcard.php
+	Func:get_card_info_by_order	Class:Giftcard       	Type:::   	Line:43   	File:D:\projects\php\zunpingou\controllers\order.php
+	Func:order_show     	Class:Order          	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  volume_id
+errFile:D:\projects\php\zunpingou\controllers\simple.php
+errLine:1623
+errTime:13-08-20 23:07:21
+##出错时变量的值：##
+array (
+  'login_card_info' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined offset:  0
+errFile:D:\projects\php\zunpingou\classes\giftcard.php
+errLine:111
+errTime:13-08-20 23:14:27
+##出错时变量的值：##
+array (
+  'order_id' => '26',
+  'volumes_info' => 
+  array (
+    'title' => '中秋200礼卡',
+    'no' => '3652',
+    'use_time' => '1377011609',
+    'message' => '兑换产品ID4 order_id 26',
+  ),
+)
+<\ERROR_INFO>

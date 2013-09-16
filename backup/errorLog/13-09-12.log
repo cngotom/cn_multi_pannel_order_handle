@@ -1,0 +1,84 @@
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: _classes
+errFile:IWEB_PATH/iweb.php
+errLine:77
+errTime:13-09-12 22:04:21
+##出错时变量的值：##
+array (
+  'className' => 'site',
+  'classPath' => 'controllers.*',
+  'filePath' => 'D:/projects/php/taobaohoutai/controllers/site.php',
+  'filePath2' => 'D:/projects/php/taobaohoutai/controllers/site.php',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\taobaohoutai\runtime\order\tongji.php
+errLine:53
+errTime:13-09-12 22:35:42
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/taobaohoutai/runtime\\order\\tongji.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: _coreClasses
+errFile:IWEB_PATH/iweb.php
+errLine:68
+errTime:13-09-12 23:42:55
+##出错时变量的值：##
+array (
+  'className' => 'taobao',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: _coreClasses
+errFile:IWEB_PATH/iweb.php
+errLine:68
+errTime:13-09-12 23:43:07
+##出错时变量的值：##
+array (
+  'className' => 'taobao',
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: _coreClasses
+errFile:IWEB_PATH/iweb.php
+errLine:68
+errTime:13-09-12 23:43:29
+##出错时变量的值：##
+array (
+  'className' => 'taobao',
+)
+<\ERROR_INFO>

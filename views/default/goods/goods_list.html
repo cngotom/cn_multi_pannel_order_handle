@@ -1,0 +1,100 @@
+<div class="container"> 
+	<table class="table">
+
+
+
+		<thead>
+			<th> 产品名称 </th>
+			<th> 图片</th>
+			<th> 重量/KG</th>
+			<th> 价格/元 </th>
+		</thead>
+
+		<tbody>
+
+			{foreach:items=$goods item=$item}
+					<tr> 
+						<td>{$item['title']}	</td>
+						<td> <img src="{$item['pic_path']}"  width="60" height="60"  />	</td>
+						<td> <span type="weight"  gid="{$item['id']}" class="value" mode="show">  {$item['weight']} </span>  </td>
+						<td> <span type="price" gid="{$item['id']}"  class="value" mode="show">  {$item['pprice']} </span>  </td>
+					</tr>
+			{/foreach}
+
+		</tbody>
+
+
+
+
+
+
+
+
+
+	</table>
+
+</div>
+<script>
+$(function(){
+	var select_span = null;
+
+	function change_mode_show()
+	{
+		if(select_span != null)
+		{
+			if($(select_span).attr('mode') == "edit"){
+				var span = select_span;
+				var input = $(select_span).find("input");
+				var value =  parseFloat(input.val());
+
+				var type = $(select_span).attr('type');
+				var gid =  $(select_span).attr('gid');
+				
+				$(span).html(value);
+
+				$.post(
+					'{url:/goods/ajaxUpdate}',
+					{"gid":gid,"value":value,"type":type}
+				);
+
+
+
+
+				$(span).attr('mode','show');
+			}
+		}
+	}
+
+	$('body').click(change_mode_show);
+	$(".value").click(function(){
+		if($(this).attr('mode') == "show")
+		{	
+			change_mode_show();
+
+			var v = $(this).html();
+			$(this).html(
+				'<input type="input" value="' + v +'" />'
+			)
+			$(this).attr('mode','edit');
+			 $(this).find("input").trigger('focus');
+
+			 select_span = this;
+			 return false;
+		}
+		
+	})
+	.mouseover(function(){
+
+		$(this).addClass('hover');
+
+	})
+	.mouseout(function(event) {
+		$(this).removeClass('hover');
+	});
+
+
+
+
+});
+
+</script>

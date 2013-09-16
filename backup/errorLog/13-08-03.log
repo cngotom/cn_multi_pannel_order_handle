@@ -1,0 +1,6389 @@
+<ERROR_INFO>
+errID:2
+errStr:mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Host 'XYL-PC' is not allowed to connect to this MySQL server
+errFile:IWEB_PATH/db\driver\mysql_class.php
+errLine:27
+errTime:13-08-03 09:39:44
+##出错时变量的值：##
+array (
+  'dbinfo' => 
+  array (
+    'host' => '192.168.1.105:3306',
+    'user' => 'root',
+    'passwd' => '50942757',
+    'name' => 'iwebshop',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:54
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:73
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:78
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:79
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:83
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:84
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:85
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:86
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:90
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:91
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:92
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:93
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: where
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:01:40
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => 'goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del',
+      'where' => '',
+      'join' => 'left join iwebshop_brand  as brand on goods.brand_id = brand.id ',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  where  and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:146  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:54
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:73
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:78
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:79
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:83
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:84
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:85
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:86
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:90
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:91
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:92
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:93
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: where
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:08
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => 'goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del',
+      'where' => '',
+      'join' => 'left join iwebshop_brand  as brand on goods.brand_id = brand.id ',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  where  and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:146  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:54
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:73
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:78
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:79
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:83
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:84
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:85
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:86
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:90
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:91
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:92
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:93
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: where
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:09
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => 'goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del',
+      'where' => '',
+      'join' => 'left join iwebshop_brand  as brand on goods.brand_id = brand.id ',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  where  and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:146  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:54
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:73
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:78
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:79
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:83
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:84
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:85
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:86
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:90
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:91
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:92
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:93
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: where
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => 'goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del',
+      'where' => '',
+      'join' => 'left join iwebshop_brand  as brand on goods.brand_id = brand.id ',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  where  and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:146  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:54
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:73
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:78
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:79
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:83
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:84
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:85
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:86
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:90
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:91
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:92
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:93
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: where
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => 'goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del',
+      'where' => '',
+      'join' => 'left join iwebshop_brand  as brand on goods.brand_id = brand.id ',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  where  and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:146  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:54
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: category_id
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:73
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:78
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: added
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:79
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:83
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:84
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:85
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: store_nums
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:86
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:90
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:91
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:92
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: commend
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:93
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: where
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:146
+errTime:13-08-03 10:02:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_category',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'name' => '大米',
+      'parent_id' => '0',
+      'sort' => '0',
+      'visibility' => '1',
+      'model_id' => '0',
+      'keywords' => '',
+      'descript' => '',
+      'title' => '',
+    ),
+  ),
+  'item' => 
+  array (
+    'id' => '1',
+    'name' => '大米',
+    'parent_id' => '0',
+    'sort' => '0',
+    'visibility' => '1',
+    'model_id' => '0',
+    'keywords' => '',
+    'descript' => '',
+    'title' => '',
+  ),
+  'key' => 0,
+  'page' => 1,
+  'goods_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_goods as goods',
+      'fields' => 'goods.id,goods.name,goods.sell_price,goods.store_nums,goods.market_price,goods.weight,brand.name as brand_name,goods.sort,goods.is_del',
+      'where' => '',
+      'join' => 'left join iwebshop_brand  as brand on goods.brand_id = brand.id ',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => 'distinct',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_goods as goods left join iwebshop_brand  as brand on goods.brand_id = brand.id  where  and (is_del = 0 or is_del = 2)   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (is_del = 0 or is_del = 2)' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:146  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:53
+errTime:13-08-03 10:03:12
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: left_join
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:105
+errTime:13-08-03 10:09:47
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+  'page' => 1,
+  'gift_list' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_gift as gift',
+      'fields' => '*',
+      'where' => '',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_volumes left join festival on    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_volumes left join festival on    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: gift_list
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:108
+errTime:13-08-03 10:26:06
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+  'page' => 1,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: gift_list
+errFile:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+errLine:108
+errTime:13-08-03 10:26:14
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\volume_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+  'page' => 1,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_volumes left join festival on    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_volumes left join festival on festival.id = volumes.festival_id    
+ -- Table 'iwebshop.festival' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_volumes left join festival on festival.id = volumes.festival_id    
+ -- Table 'iwebshop.festival' doesn't exist
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select count(*) as total from iwebshop_volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id    
+ -- Unknown column 'volumes.festival_id' in 'on clause'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:55   	File:IWEB_PATH/core\paging_class.php
+	Func:setSql         	Class:IPaging        	Type:->   	Line:41   	File:IWEB_PATH/core\paging_class.php
+	Func:__construct    	Class:IPaging        	Type:->   	Line:121  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select distinct volumes.id,volumes.title as v_title,,volumes.price,volumes.create_time,festival.title as f_title, from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id     limit 0,20
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'volumes.price,volumes.create_time,festival.title as f_title, from iwebshop_volum' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:89   	File:IWEB_PATH/core\paging_class.php
+	Func:getPage        	Class:IPaging        	Type:->   	Line:122  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select distinct volumes.id,volumes.title as v_title,volumes.price,volumes.create_time,festival.title as f_title, from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id     limit 0,20
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from iwebshop_volumes as volumes left join iwebshop_festival  as festival on fes' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:89   	File:IWEB_PATH/core\paging_class.php
+	Func:getPage        	Class:IPaging        	Type:->   	Line:122  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select distinct volumes.id,volumes.title as v_title,volumes.price,volumes.create_time,festival.title as f_title, from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id     limit 0,20
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from iwebshop_volumes as volumes left join iwebshop_festival  as festival on fes' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:89   	File:IWEB_PATH/core\paging_class.php
+	Func:getPage        	Class:IPaging        	Type:->   	Line:122  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+Mess: select distinct volumes.id,volumes.title as v_title,volumes.price,volumes.create_time,festival.title as f_title, from iwebshop_volumes as volumes left join iwebshop_festival  as festival on festival.id = volumes.festival_id     limit 0,20
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from iwebshop_volumes as volumes left join iwebshop_festival  as festival on fes' at line 1
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:89   	File:IWEB_PATH/core\paging_class.php
+	Func:getPage        	Class:IPaging        	Type:->   	Line:122  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:102  	File:D:\projects\php\zunpingou\runtime\gift\volume_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:121  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:volume_list    	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: goodsDB
+errFile:D:\projects\php\zunpingou\controllers\gift.php
+errLine:180
+errTime:13-08-03 12:24:47
+##出错时变量的值：##
+array (
+  'id' => 1,
+  'volume_data' => 
+  array (
+    'title' => 'volume_title',
+    'price' => 0,
+    'desc' => 'volume_desc',
+    'thumb' => 'upload/2013/08/03/20130803111746859.jpg',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\card_list.php
+errLine:53
+errTime:13-08-03 12:53:10
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\card_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: search
+errFile:D:\projects\php\zunpingou\runtime\gift\card_list.php
+errLine:53
+errTime:13-08-03 13:03:05
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\card_list.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  expire
+errFile:D:\projects\php\zunpingou\controllers\gift.php
+errLine:219
+errTime:13-08-03 13:25:25
+##出错时变量的值：##
+array (
+  'id' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  expire
+errFile:D:\projects\php\zunpingou\controllers\gift.php
+errLine:219
+errTime:13-08-03 13:25:47
+##出错时变量的值：##
+array (
+  'id' => 0,
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: select distinct gift_card.id,gift_card.no,gift_card.expire,gift_card.is_used,gift_card.create_time,gift_card.used_time,gift_card.message,volumes.title from iwebshop_gift_card as gift_card left join iwebshop_volumes  as volumes on gift_card.volume_id = volumes.id     limit 0,20
+ -- Unknown column 'gift_card.used_time' in 'field list'
+Line: 89
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:read           	Class:IMysql         	Type:->   	Line:59   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:89   	File:IWEB_PATH/core\paging_class.php
+	Func:getPage        	Class:IPaging        	Type:->   	Line:122  	File:IWEB_PATH/core\query_class.php
+	Func:find           	Class:IQuery         	Type:->   	Line:99   	File:D:\projects\php\zunpingou\runtime\gift\card_list.php
+	Func:require        	Class:               	Type:     	Line:184  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:requireFile    	Class:IControllerBase	Type:->   	Line:150  	File:IWEB_PATH/web\controller\controllerbase_class.php
+	Func:renderView     	Class:IControllerBase	Type:->   	Line:284  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:render         	Class:IController    	Type:->   	Line:46   	File:IWEB_PATH/web\action\view_action.php
+	Func:run            	Class:IViewAction    	Type:->   	Line:483  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:redirect       	Class:IController    	Type:->   	Line:203  	File:D:\projects\php\zunpingou\controllers\gift.php
+	Func:card_list      	Class:Gift           	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined index:  title
+errFile:D:\projects\php\zunpingou\controllers\gift.php
+errLine:222
+errTime:13-08-03 14:08:37
+##出错时变量的值：##
+array (
+  'id' => 1,
+  'obj_card' => 
+  IModel::__set_state(array(
+     'db' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'tableName' => 'iwebshop_gift_card',
+     'tableData' => 
+    array (
+    ),
+  )),
+  'card_info' => 
+  array (
+    0 => 
+    array (
+      'id' => '1',
+      'no' => '365123',
+      'password' => '40bd001563085fc35165329ea1ff5c5ecbdbbeef',
+      'expire' => '12',
+      'is_used' => '0',
+      'create_time' => '1375507639',
+      'use_time' => NULL,
+      'message' => NULL,
+      'volume_id' => '1',
+    ),
+  ),
+  'info' => 
+  array (
+    'id' => '1',
+    'no' => '365123',
+    'password' => '40bd001563085fc35165329ea1ff5c5ecbdbbeef',
+    'expire' => '12',
+    'is_used' => '0',
+    'create_time' => '1375507639',
+    'use_time' => NULL,
+    'message' => NULL,
+    'volume_id' => '1',
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: card_id
+errFile:D:\projects\php\zunpingou\runtime\gift\card_edit.php
+errLine:69
+errTime:13-08-03 14:20:03
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\card_edit.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+errID:8
+errStr:Undefined variable: card_id
+errFile:D:\projects\php\zunpingou\runtime\gift\card_edit.php
+errLine:69
+errTime:13-08-03 14:20:18
+##出错时变量的值：##
+array (
+  '__runtimeFile' => 'D:/projects/php/zunpingou/runtime\\gift\\card_edit.php',
+  'data' => NULL,
+  'adminId' => '1',
+  'query' => 
+  IQuery::__set_state(array(
+     'dbo' => 
+    IMysql::__set_state(array(
+       'linkRes' => NULL,
+    )),
+     'sql' => 
+    array (
+      'table' => 'iwebshop_quick_naviga',
+      'fields' => '*',
+      'where' => 'where admin_id = 1 and is_del = 0',
+      'join' => '',
+      'group' => '',
+      'having' => '',
+      'order' => '',
+      'limit' => 'limit 500',
+      'distinct' => '',
+    ),
+     'paging' => NULL,
+     'tablePre' => 'iwebshop_',
+  )),
+  'items' => 
+  array (
+  ),
+)
+<\ERROR_INFO>
+<ERROR_INFO>
+Mess: INSERT INTO iwebshop_user ( `username`,`password`,`email` ) VALUES ( 'guotao715','202cb962ac59075b964b07152d234b70','guotao715@123.com' ) 
+ -- Duplicate entry 'guotao715' for key 2
+Line: 118
+File: IWEB_PATH/db\driver\mysql_class.php
+##Debug_backtrace:##
+	Func:write          	Class:IMysql         	Type:->   	Line:65   	File:IWEB_PATH/db\driver\mysql_class.php
+	Func:doSql          	Class:IMysql         	Type:->   	Line:87   	File:IWEB_PATH/db\db_class.php
+	Func:query          	Class:IDB            	Type:->   	Line:111  	File:IWEB_PATH/web\model\model_class.php
+	Func:add            	Class:IModel         	Type:->   	Line:118  	File:D:\projects\php\zunpingou\controllers\member.php
+	Func:member_save    	Class:Member         	Type:->   	Line:24   	File:IWEB_PATH/web\action\inline_action.php
+	Func:run            	Class:IInlineAction  	Type:->   	Line:215  	File:IWEB_PATH/web\controller\controller_class.php
+	Func:run            	Class:IController    	Type:->   	Line:29   	File:IWEB_PATH/core\webapplication_class.php
+	Func:execRequest    	Class:IWebApplication	Type:->   	Line:111  	File:IWEB_PATH/core\application_class.php
+	Func:run            	Class:IApplication   	Type:->   	Line:5    	File:D:\projects\php\zunpingou\index.php
+</ERROR_INFO>

@@ -1,0 +1,122 @@
+<div class="position"> <span>您当前的位置：</span> <a href="{url:}"> 首页</a> » 商品品牌 </div>
+<div class="wrapper clearfix container_2">
+	<div class="sidebar f_l">
+		<div class="box m_10">
+			<div class="title">销售排行榜</div>
+			<div class="content">
+			  <ul class="ranklist" id="ranklist">
+			  	{query:name=goods as go join=left join order_goods as ord on ord.goods_id eq go.id
+			  		where = go.brand_id eq $this->brand_id
+			  		fields= go.id,go.name,go.list_img,go.sell_price,SUM(ord.goods_nums) as sum
+			  		order = sum desc
+			  		group = ord.goods_id
+			  		limit = 10
+			  	}
+			  	<li><span>{echo:intval($key+1)}</span><a href="{url:/site/products/id/$item[id]}"><img src="{webroot:$item[list_img]}" width="58px" height="58px" /></a><a href="{url:/site/products/id/$item[id]}">{$item['name']}</a><b>￥{$item['sell_price']}</b></li>
+			  	{/query}
+			  </ul>
+			</div>
+		</div>
+
+		<div class="box m_10">
+			<div class="title">热卖商品</div>
+			<div class="cont">
+				<ul class="ranklist">
+					{query:name=commend_goods as commend join=left join goods as go on go.id eq commend.goods_id
+						where  = commend_id eq 3 and go.brand_id eq $this->brand_id AND go.id is not null
+						fields = go.id,go.list_img,go.name,go.sell_price
+						order = go.sort asc,go.id desc
+						limit  = 10
+					}
+					<li class='current'><a href="{url:/site/products/id/$item[id]}"><img src="{webroot:}{$item['list_img']}" width="58" height="58" /></a><a href="{url:/site/products/id/$item[id]}">{$item['name']}</a><b>￥{$item['sell_price']}</b></li>
+					{/query}
+				</ul>
+			</div>
+		</div>
+
+		<div class="box m_10">
+			<div class="title">更多品牌</div>
+			<div class="cont">
+			  <ul class="textlist_2 clearfix">
+			  	{query:name=brand limit=10 order=sort asc fields=id,name where=id neq $this->brand_id}
+			  	<li><a href="{url:/site/brand_zone/id/$item[id]}">{$item['name']}</a></li>
+			  	{/query}
+			  </ul>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="main f_r">
+		<div class="box m_10">
+			<div class="title">品牌专区</div>
+			<div class="cont">
+				<div class="c_box">
+					<dl class="clearfix">
+						<dt><img src="{webroot:}{$this->brandRow['logo']}" width="220" height="100" /></dt>
+						<dd><strong>{$this->brandRow['name']}</strong></dd>
+						<dd>官方站点：{$this->brandRow['url']}</dd>
+					</dl>
+					<p>{$this->brandRow['description']}</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="display_title">
+			<span class="l"></span>
+			<span class="r"></span>
+			<span class="f_l">排序：</span>
+			<ul>
+				{foreach:items=$this->orderArray}
+					{if:$this->order == $key}
+						{set:$next = $key.'_toggle';$tip  = '';}
+					{else:}
+						{set:$next = $key;$tip  = 'desc';}
+					{/if}
+					<li class="{echo:(stripos($this->order,$key)!==false) ? 'current':''}">
+						<span class="l"></span><span class="r"></span>
+						<a href="{echo:block::searchUrl('order',$next)}">
+							{$item}<span class='{$tip}'>&nbsp</span>
+						</a>
+					</li>
+				{/foreach}
+			</ul>
+			<span class="f_l">显示方式：</span>
+			<a class="show_b" href="{echo:block::searchUrl('show_type','win')}" title='橱窗展示' alt='橱窗展示'><span class='{echo:$this->show_type == 'win' ? 'current':''}'></span></a>
+			<a class="show_s" href="{echo:block::searchUrl('show_type','list')}" title='列表展示' alt='列表展示'><span class='{echo:$this->show_type == 'list' ? 'current':''}'></span></a>
+		</div>
+
+		<ul class="display_list clearfix m_10">
+			{set:$defaultWhere = ' go.brand_id = '.$this->brand_id}
+			{set:$resultData = $this->find($defaultWhere,$goodsObj)}
+			{foreach:items=$resultData}
+			<li class="clearfix {$this->show_type}">
+				<div class="pic">
+					<img src="{echo:Thumb::get($item['img'],$this->listImageWidth,$this->listImageHeight)}" width="{$this->listImageWidth}" height="{$this->listImageHeight}" alt="{$item['name']}" title="{$item['name']}" />
+				</div>
+				<h3 class="title"><a href="{url:/site/products/id/$item[id]}">{$item['name']}</a><span>总销量：{echo:intval($item['sell_num'])}<a class="blue" href="{url:/site/comments_list/id/$item[id]}">( {echo:intval($item['comments_num'])}人评论 )</a></span><span class='grade'><i style='width:{echo:14*$item['average_point']}px'></i></span></h3>
+				<div class="handle">
+					<label class="btn_gray_m"><img src="{skin:images/front/ucenter/shopping.gif}" width="15" height="15" /><input type="button" value="加入购物车" onclick="joinCart_list({$item['id']});"></label>
+					<label class="btn_gray_m"><img src="{skin:images/front/ucenter/favorites.gif}" width="15" height="14" /><input type="button" value="收藏" onclick="favorite_add_ajax('{url:/simple/favorite_add}','{$item['id']}',this);"></label>
+					<div class="msgbox" style="width:350px;display:none">
+						<div class="msg_t"><a class="close f_r" onclick="$(this).parents('.msgbox').hide();">关闭</a>请选择规格</div>
+						<div class="msg_c" id='product_box_{$item['id']}'></div>
+					</div>
+				</div>
+				<div class="price">￥{$item['sell_price']}<s>￥{$item['market_price']}</s></div>
+			</li>
+			{/foreach}
+		</ul>
+
+		<div class="pages_bar">
+			{$goodsObj->getPageBar()}
+		</div>
+
+		{if:empty($resultData)}
+		<p class="display_list mt_10" style='margin-top:50px;margin-bottom:50px'>
+			<strong class="gray f14">对不起，没有找到相关商品</strong>
+		</p>
+		{/if}
+
+	</div>
+</div>
